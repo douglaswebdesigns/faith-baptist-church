@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-21T14:03:17-04:00\n"
+"POT-Creation-Date: 2015-04-21T14:03:17-04:00\n"
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-columns.class.php:134
+msgid "Add a Column"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-columns.class.php:359
+msgid "No Comments"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-filters.class.php:591
+msgid "Choose a Saved Filter"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-filters.class.php:792
+msgid "Add a Filter"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box-helper.php:46
+msgid "Extended Information"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:125
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:398
+msgid "Delete this image"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:125
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:353
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:398
+msgid "Delete"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:349
+msgid "Uploaded files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:359
+msgid "Upload new files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:362
+msgid "Add another file"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:405
+msgid "Add more images"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/lib/tribe-meta-box.php:413
+msgid "Select a color"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/tribe-apm.php:209
+msgid "Latest Comment"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:7
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:8
+msgid "Click to toggle"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:8
+msgid "Filters &amp; Columns"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:17
+msgid "Apply"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:18
+msgid "Clear"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:19
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:26
+msgid "Save"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:21
+msgid "Export to CSV"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:25
+msgid "Filter Name"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/apm/views/edit-filters.php:27
+msgid "Cancel"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/edd/EDD_SL_Plugin_Updater.php:177
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/edd/EDD_SL_Plugin_Updater.php:184
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/edd/EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/edd/EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/field.php:189
+msgid "+"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/field.php:206
+msgid "&#8211;"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/button.php:35
+msgid "Click me"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:18
+msgid "Done"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:19
+msgid "Prev"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:20
+msgid "Next"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:21
+msgid "Today"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "January"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "February"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "March"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "April"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "May"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "June"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "July"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "August"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "September"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "October"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "November"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:22
+msgid "December"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Jan"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Feb"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Mar"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Apr"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Jun"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Jul"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Aug"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Sep"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Oct"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Nov"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:23
+msgid "Dec"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Sunday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Monday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Tuesday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Wednesday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Thursday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Friday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:24
+msgid "Saturday"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Sun"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Mon"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Tue"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Wed"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Thu"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Fri"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:25
+msgid "Sat"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Su"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Mo"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Tu"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "We"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Th"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Fr"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:26
+msgid "Sa"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/date.php:27
+msgid "Wk"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:32
+msgid "Choose Time"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:33
+msgid "Time"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:34
+msgid "Hour"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:35
+msgid "Minute"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:36
+msgid "Second"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:37
+msgid "Millisecond"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:38
+msgid "Time Zone"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/datetime.php:39
+msgid "Now"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-advanced.php:23
+msgid "Select Files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-advanced.php:64
+msgctxt "file upload"
+msgid "Select or Upload Files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-advanced.php:100
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-advanced.php:101
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-input.php:17
+msgid "Select File"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-input.php:40
+msgid "Select"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file-input.php:42
+msgid "Remove"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file.php:19
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file.php:20
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file.php:83
+msgctxt "file upload"
+msgid "Upload Files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/file.php:84
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image-advanced.php:70
+msgctxt "image upload"
+msgid "Select or Upload Images"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image-advanced.php:106
+msgctxt "image upload"
+msgid "Delete"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image-advanced.php:107
+msgctxt "image upload"
+msgid "Edit"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image.php:70
+msgctxt "image upload"
+msgid "Upload Images"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/image.php:71
+msgctxt "image upload"
+msgid "+ Add new image"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/oembed.php:54
+msgid "Embed HTML not available."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/oembed.php:76
+msgid "Preview"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/plupload-image.php:102
+msgctxt "image upload"
+msgid "Drop images here"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/plupload-image.php:103
+msgctxt "image upload"
+msgid "or"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/plupload-image.php:104
+msgctxt "image upload"
+msgid "Select Files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/plupload-image.php:179
+msgctxt "image upload"
+msgid "Allowed Image Files"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/post.php:52
+msgid "Post"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/post.php:66
+msgid "Select a %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/fields/user.php:54
+msgid "User"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:103
+msgid "This field is required."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:104
+msgid "Please fix this field."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:105
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:106
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:107
+msgid "Please enter a valid date."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:108
+msgid "Please enter a valid date ( ISO )"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:109
+msgid "Please enter a valid number."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:110
+msgid "Please enter only digits."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:111
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:112
+msgid "Please enter the same value again."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:113
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:114
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:115
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:116
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:117
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:118
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/emd-meta-box/inc/meta-box.php:268
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/box.php:44
+msgid "Are you sure you want to delete all connections?"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/box.php:123
+msgid "Search"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/box.php:200
+msgid "previous"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/box.php:201
+msgid "next"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/box.php:202
+msgid "of"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/factory.php:46
+msgid " (from)"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/factory.php:47
+msgid " (to)"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/fields.php:7
+msgid "Delete all connections"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/fields.php:16
+msgid "Delete connection"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:7
+msgid "Connection Types"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:41
+msgid "<em>%s</em> is not a registered connection type."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:50
+msgid "Converted %1$s connections from <em>%2$s</em> to <em>%3$s</em>."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:64
+msgid "Name"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:65
+msgid "Information"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:66
+msgid "Connections"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:74
+msgid "No connection types registered."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:76
+msgid "To register a connection type, see <a href=\"%s\">the wiki</a>."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:93
+msgid "Convert to registered connection type:"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/admin/tools.php:129
+msgid "Go"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:19
+msgid "Posts 2 Posts"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:20
+msgid "A list of posts connected to the current post"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:37
+msgid "Title:"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:44
+msgid "Connection type:"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:49
+msgid "Connection listing:"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:55
+msgid "connected"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/extra.php:56
+msgid "related"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/side.php:232
+msgid "Users"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/side.php:242
+msgid "Search Users"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/side.php:243
+msgid "No users found."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/type.php:101
+msgid "Create connections"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/core/type.php:121
+msgid "Connected %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/scb/AdminPage.php:170
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/scb/AdminPage.php:183
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/scb/AdminPage.php:194
+msgid "Save Changes"
+msgstr ""
+
+#: ./youtube-showcase-professional/assets/ext/posts-to-posts/scb/AdminPage.php:343
+msgid "Settings"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/license-functions.php:28
+msgid "Please enter and activate your <b>license keys</b>."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/license-functions.php:81
+msgid "Deactivate License"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/license-functions.php:85
+msgid "Activate License"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:30
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:587
+msgid "Author"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:31
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:588
+msgid "Status"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:32
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:589
+msgid "Date"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:33
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:590
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:956
+msgid "Title"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:34
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:591
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:959
+msgid "Excerpt"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:35
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:592
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:962
+msgid "Content"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:118
+msgid "There is no data to export"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:160
+msgid "When you click the button below a comma seperated file will be created for you to save to your computer."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:161
+msgid "This file will contain your %s taxonomies and attributes."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:163
+msgid "Once you have saved the download file, you can use the Import tab of the %s entity in another Wp App Studio application to import the %s content from this site."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:171
+msgid "Export Now"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:183
+msgid "Delete all %s data."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:186
+msgid "Delete all %s taxonomies."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:189
+msgid "Delete all %s."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:192
+msgid "Delete all %s relationships."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:196
+msgid "Reset %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:205
+msgid "Step 1: Upload Import File"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:208
+msgid "Upload your comma separated (.csv) file containing %s taxonomies and attributes. First choose file to upload, then click Upload import File."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:210
+msgid "Choose a file from your computer: (Maximum size: %s)"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:217
+msgid "Upload Import File"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:223
+msgid "Step 2: Confirm Fields and Import"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:226
+msgid "In the list below, select the fields in the import file that should be imported into each field in the system. When you are finished, click Import Now:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:238
+msgid "Error:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:422
+msgid "Import"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:423
+msgid "Reset"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:424
+msgid "Export"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:427
+msgid "Map Users"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:489
+msgid "<br>%d %s relationships are deleted."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:515
+msgid "<br>%d Taxonomy Terms of %s are deleted."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:560
+msgid "<br>%d %s are deleted."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:576
+msgid "Error: Verify your CSV file, all CSV files must have a correctly formatted header."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:617
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:982
+msgid "* Indicates required field"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:623
+msgid "Field"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:624
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:987
+msgid "Select a field from list of all fields existing in the database for %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:626
+msgid "Header Field"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:627
+msgid "This column shows the header field(s) of the import file."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:629
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1054
+msgid "Do not map this field"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:630
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:631
+msgid "Please select"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:632
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:999
+msgid "Publish"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:633
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1000
+msgid "Pending"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:634
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1001
+msgid "Draft"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:635
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1002
+msgid "Future"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:636
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1003
+msgid "Private"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:666
+msgid "Import Now"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:688
+msgid "<br>Error: Verify your CSV file, all CSV files must have a correctly formatted header."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:778
+msgid "Step 3: Finish"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:780
+msgid "%d rows have been imported to %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:828
+msgid "User Mapping is deleted."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:845
+msgid "All required attributes must be mapped. Please try again."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:849
+msgid "User Mapping is saved."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:927
+msgid "%1s %2s created from existing users."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:936
+msgid "%1s %2s updated from existing users."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:945
+msgid "You can use the form below to map your users to %s attributes. After the mapping is saved new user information will be automatically propagated to %s entity attributes based on the mapping below. You can also map your existing users by checking the checkbox below the form. If you clear the mapping you must assign users to %s manually."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:951
+msgid "WP Author"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:952
+msgid "WP Status"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:953
+msgid " WP Post Date"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:986
+msgid "Attribute"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:989
+msgid "User Field"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:990
+msgid "This column shows the user metadata field(s)."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1072
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1083
+msgid "Create %s from existing users with %s roles?"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1075
+#: ./youtube-showcase-professional/includes/admin/operations/operations.php:1086
+msgid "Create %s from all existing users? "
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:22
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:42
+msgid "Browse All"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:24
+msgid "The following plugins extend and expand the functionality of your app."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:44
+msgid "The following <a href=\"%s\" title=\"WP App Studio Prodev\" target=\"_blank\">WP App Studio Prodev</a> plugin designs can be used as a template:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:46
+msgid "To customize the functionality of their corresponding plugins"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:49
+msgid "To create your own plugin"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:74
+msgid "There was an error retrieving the extensions list from the server. Please try again later."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:92
+msgid "Thanks for installing %s."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:92
+msgid "All support requests are accepted through <a href=\"%s\" target=\"_blank\">our support site.</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/store-functions.php:115
+msgid "Like our plugin? Leave us a review"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:30
+msgid "Forms"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:37
+msgid "Standards"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:48
+msgid "Integrations"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:55
+msgid "Charts"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:62
+msgid "Datagrids"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:124
+msgid "Insert WPAS Shortcode"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:125
+msgid "Select a component below to insert into any Post or Page."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:130
+msgid "Insert Shortcode"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:150
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-functions.php:151
+msgid "Add WPAS Shortcode"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-std-functions.php:26
+msgid "Limit results by creating a content filter and clicking plus icon:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-std-functions.php:29
+msgid "If all of the following conditions are met:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-std-functions.php:307
+msgid "Attributes"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-std-functions.php:332
+msgid "Taxonomies"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/admin/wpas-btn-std-functions.php:338
+msgid "Relationships"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/class-emd-widget.php:122
+msgid "%s to show"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/class-emd-widget.php:123
+msgid "Max: 10"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/class-emd-widget.php:186
+#: ./youtube-showcase-professional/includes/class-emd-widget.php:199
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comment-data.php:277
+msgid "Add "
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments-list-table.php:47
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments-list-table.php:48
+msgid "No "
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments-list-table.php:135
+msgctxt "column name"
+msgid "In Response To"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments-list-table.php:147
+msgid "%s pending"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:125
+msgid "This %s is marked as private"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:145
+msgid "Make this %s private"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:314
+msgid "Reply to"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:315
+msgid "Add new"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:323
+msgid "E-mail"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:328
+msgid "URL"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:338
+msgid "Add"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:339
+msgid "Update"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:340
+msgid "Submit"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:537
+msgid "One %3$s on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s %4$s on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:558
+msgid " are closed."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:649
+msgid "Pingback:"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:651
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:680
+msgid "Edit <span>&rarr;</span>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:670
+msgid "Latest"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:685
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:700
+msgid "%1$s @ %2$s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:702
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/emd-comments/class-emd-comments.php:707
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:152
+msgid "%s updated. <a href=\"%s\">View %s</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:153
+msgid "Custom field updated."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:154
+msgid "Custom field deleted."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:155
+msgid "%s updated."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:157
+msgid "%s restored to revision from %s"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:158
+msgid "%s published. <a href=\"%s\">View %s</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:159
+msgid "%s saved."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:160
+msgid "%s submitted. <a target=\"_blank\" href=\"%s\">Preview %s</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:161
+msgid "%s scheduled for: <strong>%s</strong>. <a target=\"_blank\" href=\"%s\">Preview %s</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:161
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:162
+msgid "%s draft updated. <a target=\"_blank\" href=\"%s\">Preview %s</a>"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/entities/class-emd-entity.php:181
+msgid "Operations"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/youtube-functions.php:52
+#: ./youtube-showcase-professional/includes/youtube-functions.php:70
+msgid "ago"
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/youtube-functions.php:100
+msgid "Settings saved."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/youtube-functions.php:104
+msgid "Google YouTube API Key allows you to request video stats from Google. The default key included below must be changed with your own key to minimize over-the-limit errors. Please refer to the <a href=\"%s\" target=\"_blank\">video</a> on how to get your own API Key."
+msgstr ""
+
+#: ./youtube-showcase-professional/includes/youtube-functions.php:118
+msgid "%s Youtube Data API v3 Key"
+msgstr ""

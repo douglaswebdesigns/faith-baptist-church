@@ -1,0 +1,157 @@
+h2 {
+	line-height: 1.35em;
+}
+
+h3 {
+	font-size: 1.95em;
+	line-height: 1.15em;
+}
+
+/* Sets style for the heading 4 selector */
+h4 {
+	font-size: 1.625em;
+	line-height: 1.275em;
+	font-weight: 500;
+	margin: 0 10% 15px;
+}
+/* =Base elements
+----------------------------------------------- */
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#tinymce {
+	background: #cec6aa;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+	-moz-box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+	box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
+}	
+
+.p1 a {
+  color: #10A087!important;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: right;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: .4em;
+}
+
+h1 {
+    font-size: 32px;
+    font-size: 2.65em;
+    line-height: 1.15em;
+}
+
+h2 {
+    font-size: 27px;
+    font-size: 2.25em;
+    line-height: 1.05em;
+}
+
+h3 {
+    font-size: 23px;
+    font-size: 1.95em;
+    line-height: 1em;
+}
+
+h4 {
+    font-size: 20px;
+    font-size: 1.625em;
+    line-height: .95em;
+}
+
+h5 {
+    font-size: 18px;
+    font-size: 1.5em;
+    line-height: .9em;
+}
+
+h6 {
+    font-size: 16px;
+    font-size: 1.35em;
+    line-height: .85em
+    text-transform: uppercase;
+}
+
+
+p {
+    font-size: 24px;
+    line-height: 1.55em;
+}
+
+/* Sets style for the section paragraphs */
+section p, .p1 {
+	font-size: 2em;
+}
+
+strong a {
+	color: #544838;
+}
+
+/* Blockquotes */
+blockquote {
+	width: 75%;
+	padding: 1.5em 1em .1em;
+	margin: 1.5% 7.5%;
+	font-style: italic;
+	background-color: rgba(238,238,238,.65);
+	border-left: 6px solid #095a4c;
+	-webkit-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+}
+
+blockquote p {
+	line-height: 1.55em;
+}
+
+blockquote em {
+	font-style: normal;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 1em;
+	font-size: 8px;
+	font-size: .8em;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: right;
+	padding-right: 1%;
+	border-right: 4px inset #095a4c;
+	-webkit-border-radius: 15px 0;
+	-moz-border-radius: 15px 0;
+	-ms-border-radius: 15px 0;
+	border-radius: 15px 0;
+}
+
+blockquote.alignleft {
+	width: 50%;
+	float: left;
+	padding: 1em 0 0;
+	margin-right: 2em;
+}
+
+blockquote.alignright {
+	width: 50%;
+	float: right;
+	padding: 1em 0 0;
+	margin-left: 2em;
+}
+

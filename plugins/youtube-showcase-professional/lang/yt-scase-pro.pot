@@ -1,0 +1,1523 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-21T14:03:23-04:00\n"
+"POT-Creation-Date: 2015-04-21T14:03:23-04:00\n"
+
+#: youtube-showcase-professional/includes/admin/glossary.php:22
+msgid "Displays a video gallery on a page with paged navigation. Videos adjust to the screen size of the device."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:23
+msgid "The below are the definitions of entities, attributes, and terms included in YouTube Showcase Professional."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:27
+msgid "Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:30
+msgid "YouTube video which may be displayed as single video, a collection of videos based on a video channel , custom playlist, or videos based on user defined search terms."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:31
+msgid "Featured"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:32
+msgid "Adds the video to featured video list. Featured is filterable in the admin area. Featured does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:34
+msgid "Video Type"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:35
+msgid "Identifies the content that will load in the player. Video Type is a required field. Video Type is filterable in the admin area. Video Type does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:37
+msgid "Video ID"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:38
+msgid "<p>The unique 11 digit alphanumeric video id found on the YouTube video. For example; in https://www.youtube.com/watch?v=uVgWZd7oGOk. uVgWZd7oGOk is the video id.</p> Video ID is a required field. Video ID is filterable in the admin area. Video ID does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:40
+msgid "Custom Playlist"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:41
+msgid "Enter a comma-separated list of video IDs to play. The first video that plays will be the video specified in the video id field and the videos specified in here will play thereafter. Custom Playlist is a required field. Custom Playlist is filterable in the admin area. Custom Playlist does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:43
+msgid "PlayList ID"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:44
+msgid "Enter a YouTube playlist ID. Make sure the parameter value begins with the letters <code>PL</code>. PlayList ID is a required field. PlayList ID is filterable in the admin area. PlayList ID does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:46
+msgid "Query Terms"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:47
+msgid "Enter the search terms without space. You can use <b>+</b> operator to force the search results to include or <b>-</b> operator to force the search results to omit the term. For example; Movies+2015-2010 Query Terms is a required field. Query Terms is filterable in the admin area. Query Terms does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:49
+msgid "User Uploads"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:50
+msgid "Enter the name of the YouTube channel retrieve a list of videos uploaded to the channel. User Uploads is a required field. User Uploads is filterable in the admin area. User Uploads does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:52
+msgid "Video Thumbnail Image"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:53
+msgid "Sets the video thumbnail image. Displayed best at 16:9 ratio. For small images 320x180px looks good. Video Thumbnail Image does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:55
+msgid "Display Order"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:56
+msgid "Sets the order of video display in gallery views. Exp. the video with display order of 1 precedes another video with 2 Display Order has a default value of <b>1</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:58
+msgid "Duration"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:59
+msgid "Displays video duration stat when checked. Duration does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:61
+msgid "Like Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:62
+msgid "Displays video like count stat when checked. Like Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:64
+msgid "Favorite Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:65
+msgid "Displays video_favorite_count when checked. Favorite Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:67
+#: youtube-showcase-professional/includes/admin/glossary.php:76
+msgid "Comment Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:68
+msgid "Displays video comment count when checked. Comment Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:70
+#: youtube-showcase-professional/includes/admin/glossary.php:73
+msgid "View Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:71
+msgid "Displays video view count when checked. View Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:74
+msgid "Displays channel view count when checked. View Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:77
+msgid "Displays channel comment count when checked. Comment Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:79
+msgid "Subscriber Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:80
+msgid "Displays channel subscriber count when checked. Subscriber Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:82
+msgid "Video Count"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:83
+msgid "Displays channel video count when checked. Video Count does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:85
+msgid "Published At"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:86
+msgid "Displays the date that the video was published at when checked. Published At is filterable in the admin area. Published At does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:88
+msgid "Channel Published At"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:89
+msgid "Displays the date that the channel published at when checked. Channel Published At is filterable in the admin area. Channel Published At does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:91
+msgid "Autohide"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:92
+msgid "<p>Indicates whether the video controls will automatically hide after a video begins playing. <strong>Fade out:</strong> The default behavior. The video progress bar will fade out while the player controls remain visible. <strong>Slide out:</strong> The video progress bar and the player controls will slide out of view a couple of seconds after the \"video starts\" playing. They will only 'reappear' if the user moves her mouse over the video player or presses a key on her keyboard. <strong>Visible:</strong> The video progress bar and the video player controls will be visible throughout the video and in fullscreen.</p> Autohide is filterable in the admin area. Autohide has a default value of <b>'2'</b>.Autohide is displayed as a dropdown and has predefined values of: 2, 1, 0."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:94
+msgid "Autoplay"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:95
+msgid "<p>The video will autoplay when checked.</p> Autoplay is filterable in the admin area. Autoplay has a default value of <b>1</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:97
+msgid "CC Load Policy"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:98
+msgid "If checked closed captions will be shown by default, even if the user has turned captions off. CC Load Policy is filterable in the admin area. CC Load Policy does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:100
+msgid "Control Bar Theme"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:101
+msgid "<p>Sets a dark or light control bar.</p> Control Bar Theme is filterable in the admin area. Control Bar Theme has a default value of <b>'dark'</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:103
+msgid "Display Controls"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:104
+msgid "Sets whether the video player controls will display. Display Controls is filterable in the admin area. Display Controls does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:106
+msgid "Disable Keyboard Controls"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:107
+msgid "<p>When checked, it disables the player keyboard controls. Keyboard controls are as follows: <strong>Spacebar:</strong> Play / Pause. <strong>Arrow Left:</strong> Jump back 10% in the current video. <strong>Arrow Right:</strong> Jump ahead 10% in the current video. <strong>Arrow Up:</strong> Volume up. <strong>Arrow Down:</strong> Volume Down.</p> Disable Keyboard Controls is filterable in the admin area. Disable Keyboard Controls does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:109
+msgid "Display Fullscreen"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:110
+msgid "<p>When unchecked, the player does not display the fullscreen button.</p> Display Fullscreen is filterable in the admin area. Display Fullscreen has a default value of <b>1</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:112
+msgid "Display Annotations"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:113
+msgid "<p>Sets if video annotations will be displayed by default or not.</p> Display Annotations is filterable in the admin area. Display Annotations does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:115
+msgid "Display Related Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:116
+msgid "<p>When unchecked, the player does not show related videos when playback of the initial video ends.</p> Display Related Videos is filterable in the admin area. Display Related Videos has a default value of <b>1</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:118
+msgid "Interface Language"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:119
+msgid "<p>Sets the player's interface language.</p> Interface Language is filterable in the admin area. Interface Language has a default value of <b>'en'</b>.Interface Language is displayed as a dropdown and has predefined values of: aa, ab, af, am, ar, as, ay, az, ba, be, bg, bh, bi, bn, bo, br, ca, co, cs, cy, da, de, dz, el, en, eo, es, et, eu, fa, fi, fj, fo, fr, fy, ga, gd, gl, gn, gu, ha, he, hi, hr, hu, hy, ia, id, ie, ik, is, it, iu, ja, jw, ka, kk, kl, km, kn, ko, ks, ku, ky, la, ln, lo, lt, lv, mg, mi, mk, ml, mn, mo, mr, ms, mt, my, na, ne, nl, no, oc, om, or, pa, pl, ps, pt, qu, rm, rn, ro, ru, rw, sa, sd, sg, sh, si, sk, sl, sm, sn, so, sq, sr, ss, st, su, sv, sw, ta, te, tg, th, ti, tk, tl, tn, to, tr, ts, tt, tw, ug, uk, ur, uz, vi, vo, wo, xh, yi, yo, za, zh, zu."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:121
+msgid "Loop"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:122
+msgid "<p>When checked the player plays the initial video again and again.</p> Loop does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:124
+msgid "Modesbranding"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:125
+msgid "<p>When checked, the player does not show a YouTube logo. Note that a small YouTube text label will still display in the upper-right corner of a paused video when the user's mouse pointer hovers over the player.</p> Modesbranding is filterable in the admin area. Modesbranding does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:127
+msgid "Start Playing"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:128
+msgid "<p>When set, the player begins playing the video at the given number of seconds from the start of the video.</p> Start Playing does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:130
+msgid "Stop Playing After"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:131
+msgid "<p>Sets the time the player stops playing the video in seconds from the start of the video.</p> Stop Playing After is filterable in the admin area. Stop Playing After has a default value of <b>3600</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:133
+msgid "Show info"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:134
+msgid "<p>When unchecked, the player will not display information like the video title and uploader before the video starts playing.</p> Show info is filterable in the admin area. Show info has a default value of <b>1</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:136
+msgid "Theme"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:137
+msgid "<p>Sets the color of the player's video progress bar to highlight the amount of the video that the viewer has already seen.</p> Theme is filterable in the admin area. Theme has a default value of <b>'red'</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:139
+msgid "Plays inline"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:140
+msgid "Sets whether videos play inline or fullscreen in an HTML5 player on iOS. When checked, the player plays the video inline for UIWebViews created with the allowsInlineMediaPlayback property set to TRUE otherwise the video is played fullscreen. Plays inline is filterable in the admin area. Plays inline does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:142
+msgid "Title"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:143
+msgid " Title is a required field. Being a unique identifier, it uniquely distinguishes each instance of Video entity. Title is filterable in the admin area. Title does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:145
+msgid "Excerpt"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:146
+msgid " Excerpt does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:148
+msgid "Content"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:149
+msgid " Content does not have a default value. "
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:151
+msgid "Category"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:153
+msgid " Category supports parent-child relationships like categories"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:153
+msgid "Category has a default value of:"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:153
+msgid " all-videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:153
+msgid "The following are the preset values and value descriptions for <b>Category:</b>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:154
+msgid "All videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:155
+msgid "Parent category for all videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:161
+msgid "Tag"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:163
+msgid " Tag accepts multiple values like tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:163
+msgid "Tag does not have a default value"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:163
+msgid "There are no preset values for <b>Tag:</b>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:166
+msgid "Related Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:167
+msgid "Allows to display and create connections with Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:167
+msgid "One instance of Videos can associated with many instances of Videos, and vice versa"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/glossary.php:167
+msgid "The relationship can be set up in the edit area of Videos using Related Videos relationship box"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/license-functions.php:28
+msgid "Please enter and activate your <b>license keys</b>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/license-functions.php:81
+msgid "Deactivate License"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/license-functions.php:85
+msgid "Activate License"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:22
+#: youtube-showcase-professional/includes/admin/store-functions.php:42
+msgid "Browse All"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:24
+msgid "The following plugins extend and expand the functionality of your app."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:44
+msgid "The following <a href=\"%s\" title=\"WP App Studio Prodev\" target=\"_blank\">WP App Studio Prodev</a> plugin designs can be used as a template:"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:46
+msgid "To customize the functionality of their corresponding plugins"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:49
+msgid "To create your own plugin"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:74
+msgid "There was an error retrieving the extensions list from the server. Please try again later."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:92
+msgid "Thanks for installing %s."
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:92
+msgid "All support requests are accepted through <a href=\"%s\" target=\"_blank\">our support site.</a>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/admin/store-functions.php:115
+msgid "Like our plugin? Leave us a review"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:112
+msgid "Video Manager"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:280
+msgid "Video Grid Gallery"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:285
+msgid "Video Wall Gallery"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:290
+msgid "Video Gallery"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:302
+msgid "Adds the video to featured video list."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:315
+msgid "Identifies the content that will load in the player."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:318
+msgid "Single"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:319
+msgid "Playlist"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:320
+msgid "Search"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:434
+msgid "<p>The unique 11 digit alphanumeric video id found on the YouTube video. For example; in https://www.youtube.com/watch?v=uVgWZd7oGOk. uVgWZd7oGOk is the video id.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:446
+msgid "Enter a comma-separated list of video IDs to play. The first video that plays will be the video specified in the video id field and the videos specified in here will play thereafter."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:456
+msgid "Enter a YouTube playlist ID. Make sure the parameter value begins with the letters <code>PL</code>."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:466
+msgid "Enter the search terms without space. You can use <b>+</b> operator to force the search results to include or <b>-</b> operator to force the search results to omit the term. For example; Movies+2015-2010"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:477
+msgid "Enter the name of the YouTube channel retrieve a list of videos uploaded to the channel."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:487
+msgid "Sets the video thumbnail image. Displayed best at 16:9 ratio. For small images 320x180px looks good."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:498
+msgid "Sets the order of video display in gallery views. Exp. the video with display order of 1 precedes another video with 2"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:510
+msgid "Displays video duration stat when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:523
+msgid "Displays video like count stat when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:536
+msgid "Displays video_favorite_count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:549
+msgid "Displays video comment count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:562
+msgid "Displays video view count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:575
+msgid "Displays channel view count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:588
+msgid "Displays channel comment count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:601
+msgid "Displays channel subscriber count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:614
+msgid "Displays channel video count when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:627
+msgid "Displays the date that the video was published at when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:640
+msgid "Displays the date that the channel published at when checked."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:653
+msgid "<p>Indicates whether the video controls will automatically hide after a video begins playing. <strong>Fade out:</strong> The default behavior. The video progress bar will fade out while the player controls remain visible. <strong>Slide out:</strong> The video progress bar and the player controls will slide out of view a couple of seconds after the \"video starts\" playing. They will only 'reappear' if the user moves her mouse over the video player or presses a key on her keyboard. <strong>Visible:</strong> The video progress bar and the video player controls will be visible throughout the video and in fullscreen.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:656
+#: youtube-showcase-professional/includes/class-install-deactivate.php:783
+msgid "Please Select"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:657
+msgid "Fade out"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:658
+msgid "Slide out"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:659
+msgid "Visible"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:670
+msgid "<p>The video will autoplay when checked.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:684
+msgid "If checked closed captions will be shown by default, even if the user has turned captions off."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:697
+msgid "<p>Sets a dark or light control bar.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:700
+msgid "Dark"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:701
+msgid "Light"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:712
+msgid "Sets whether the video player controls will display."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:725
+msgid "<p>When checked, it disables the player keyboard controls. Keyboard controls are as follows: <strong>Spacebar:</strong> Play / Pause. <strong>Arrow Left:</strong> Jump back 10% in the current video. <strong>Arrow Right:</strong> Jump ahead 10% in the current video. <strong>Arrow Up:</strong> Volume up. <strong>Arrow Down:</strong> Volume Down.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:738
+msgid "<p>When unchecked, the player does not display the fullscreen button.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:752
+msgid "<p>Sets if video annotations will be displayed by default or not.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:755
+msgid "Display"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:756
+msgid "Do not display"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:766
+msgid "<p>When unchecked, the player does not show related videos when playback of the initial video ends.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:780
+msgid "<p>Sets the player's interface language.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:784
+msgid "Afar"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:785
+msgid "Abkhazian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:786
+msgid "Afrikaans"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:787
+msgid "Amharic"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:788
+msgid "Arabic"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:789
+msgid "Assamese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:790
+msgid "Aymara"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:791
+msgid "Azerbaijani"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:792
+msgid "Bashkir"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:793
+msgid "Byelorussian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:794
+msgid "Bulgarian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:795
+msgid "Bihari"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:796
+msgid "Bislama"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:797
+msgid "Bengali"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:798
+msgid "Tibetan"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:799
+msgid "Breton"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:800
+msgid "Catalan"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:801
+msgid "Corsican"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:802
+msgid "Czech"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:803
+msgid "Welch"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:804
+msgid "Danish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:805
+msgid "German"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:806
+msgid "Bhutani"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:807
+msgid "Greek"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:808
+msgid "English"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:809
+msgid "Esperanto"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:810
+msgid "Spanish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:811
+msgid "Estonian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:812
+msgid "Basque"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:813
+msgid "Persian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:814
+msgid "Finnish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:815
+msgid "Fiji"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:816
+msgid "Faeroese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:817
+msgid "French"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:818
+msgid "Frisian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:819
+msgid "Irish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:820
+msgid "ScotsGaelic"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:821
+msgid "Galician"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:822
+msgid "Guarani"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:823
+msgid "Gujarati"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:824
+msgid "Hausa"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:825
+msgid "Hebrew"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:826
+msgid "Hindi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:827
+msgid "Croatian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:828
+msgid "Hungarian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:829
+msgid "Armenian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:830
+msgid "Interlingua"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:831
+msgid "Indonesian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:832
+msgid "Interlingue"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:833
+msgid "Inupiak"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:834
+msgid "Icelandic"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:835
+msgid "Italian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:836
+msgid "Inuktitut"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:837
+msgid "Japanese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:838
+msgid "Javanese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:839
+msgid "Georgian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:840
+msgid "Kazakh"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:841
+msgid "Greenlandic"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:842
+msgid "Cambodian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:843
+msgid "Kannada"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:844
+msgid "Korean"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:845
+msgid "Kashmiri"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:846
+msgid "Kurdish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:847
+msgid "Kirghiz"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:848
+msgid "Latin"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:849
+msgid "Lingala"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:850
+msgid "Laothian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:851
+msgid "Lithuanian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:852
+msgid "LatvianLettish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:853
+msgid "Malagasy"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:854
+msgid "Maori"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:855
+msgid "Macedonian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:856
+msgid "Malayalam"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:857
+msgid "Mongolian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:858
+msgid "Moldavian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:859
+msgid "Marathi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:860
+msgid "Malay"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:861
+msgid "Maltese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:862
+msgid "Burmese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:863
+msgid "Nauru"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:864
+msgid "Nepali"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:865
+msgid "Dutch"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:866
+msgid "Norwegian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:867
+msgid "Occitan"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:868
+msgid "Oromo"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:869
+msgid "Oriya"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:870
+msgid "Punjabi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:871
+msgid "Polish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:872
+msgid "Pashto-Pushto"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:873
+msgid "Portuguese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:874
+msgid "Quechua"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:875
+msgid "Rhaeto-Romance"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:876
+msgid "Kirundi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:877
+msgid "Romanian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:878
+msgid "Russian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:879
+msgid "Kinyarwanda"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:880
+msgid "Sanskrit"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:881
+msgid "Sindhi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:882
+msgid "Sangro"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:883
+msgid "Serbo-Croatian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:884
+msgid "Singhalese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:885
+msgid "Slovak"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:886
+msgid "Slovenian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:887
+msgid "Samoan"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:888
+msgid "Shona"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:889
+msgid "Somali"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:890
+msgid "Albanian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:891
+msgid "Serbian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:892
+msgid "Siswati"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:893
+msgid "Sesotho"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:894
+msgid "Sudanese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:895
+msgid "Swedish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:896
+msgid "Swahili"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:897
+msgid "Tamil"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:898
+msgid "Tegulu"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:899
+msgid "Tajik"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:900
+msgid "Thai"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:901
+msgid "Tigrinya"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:902
+msgid "Turkmen"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:903
+msgid "Tagalog"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:904
+msgid "Setswana"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:905
+msgid "Tonga"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:906
+msgid "Turkish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:907
+msgid "Tsonga"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:908
+msgid "Tatar"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:909
+msgid "Twi"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:910
+msgid "Uigur"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:911
+msgid "Ukrainian"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:912
+msgid "Urdu"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:913
+msgid "Uzbek"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:914
+msgid "Vietnamese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:915
+msgid "Volapuk"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:916
+msgid "Wolof"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:917
+msgid "Xhosa"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:918
+msgid "Yiddish"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:919
+msgid "Yoruba"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:920
+msgid "Zhuang"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:921
+msgid "Chinese"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:922
+msgid "Zulu"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:933
+msgid "<p>When checked the player plays the initial video again and again.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:946
+msgid "<p>When checked, the player does not show a YouTube logo. Note that a small YouTube text label will still display in the upper-right corner of a paused video when the user's mouse pointer hovers over the player.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:959
+msgid "<p>When set, the player begins playing the video at the given number of seconds from the start of the video.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:970
+msgid "<p>Sets the time the player stops playing the video in seconds from the start of the video.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:983
+msgid "<p>When unchecked, the player will not display information like the video title and uploader before the video starts playing.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:997
+msgid "<p>Sets the color of the player's video progress bar to highlight the amount of the video that the viewer has already seen.</p>"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1000
+msgid "Red"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1001
+msgid "White"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1012
+msgid "Sets whether videos play inline or fullscreen in an HTML5 player on iOS. When checked, the player plays the video inline for UIWebViews created with the allowsInlineMediaPlayback property set to TRUE otherwise the video is played fullscreen."
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1022
+msgid "Categories"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1031
+msgid "Tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1104
+msgid "New To Youtube Showcase Professional? Review the documentation!"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1104
+msgid "&#187;"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1104
+msgid "Dismiss"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1110
+msgid "Welcome to YouTube Showcase Professional"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1111
+msgid "Setup YouTube Showcase Professional Pages"
+msgstr ""
+
+#: youtube-showcase-professional/includes/class-install-deactivate.php:1111
+msgid "Skip setup"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video-widgets.php:37
+msgid "Recent Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video-widgets.php:37
+#: youtube-showcase-professional/includes/entities/class-emd-video-widgets.php:84
+msgid "The most recent videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video-widgets.php:84
+msgid "Featured Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:57
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:188
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:193
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:238
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:243
+msgid "Video"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:58
+msgid "Add New"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:59
+msgid "Add New Video"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:60
+msgid "Edit Video"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:61
+msgid "New Video"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:62
+msgid "All Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:63
+msgid "View Video"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:64
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:239
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:244
+msgid "Search Videos"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:65
+msgid "No Videos Found"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:66
+msgid "No Videos Found In Trash"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:98
+msgid "Search Categories"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:99
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:135
+msgid "All"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:100
+msgid "Parent Category"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:101
+msgid "Parent Category-COLON"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:102
+msgid "Edit Category"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:103
+msgid "Update Category"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:104
+msgid "Add New Category"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:105
+msgid "Add New Category Name"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:133
+msgid "Search Tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:134
+msgid "Popular Tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:138
+msgid "Edit Tag"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:139
+msgid "Update Tag"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:140
+msgid "Add New Tag"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:141
+msgid "Add New Tag Name"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:142
+msgid "Seperate Tags with commas"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:143
+msgid "Add or Remove Tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:144
+msgid "Choose from the most used Tags"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:218
+msgid "Video Comment"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:219
+msgid "Video Comments"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:240
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:245
+msgid "No Videos found."
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/class-emd-video.php:290
+msgid "Operations"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/emd-video-tabs.php:38
+msgid "Identification"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/emd-video-tabs.php:50
+msgid "Stats"
+msgstr ""
+
+#: youtube-showcase-professional/includes/entities/emd-video-tabs.php:62
+msgid "Player"
+msgstr ""
+
+#: youtube-showcase-professional/includes/integration-shortcodes.php:18
+msgid "You are not allowed to access to this area. Please contact the site administrator."
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:49
+msgid "Delete selected data?"
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:50
+msgid "Reset Data"
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:51
+msgid "Cancel"
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:52
+msgid "These items will be permanently deleted and cannot be recovered. Are you sure?"
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:66
+msgid "Please enter a unique value."
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:67
+msgid "required"
+msgstr ""
+
+#: youtube-showcase-professional/includes/scripts.php:83
+msgid "Taxonomy"
+msgstr ""
+
+#: youtube-showcase-professional/includes/youtube-functions.php:52
+#: youtube-showcase-professional/includes/youtube-functions.php:70
+msgid "ago"
+msgstr ""
+
+#: youtube-showcase-professional/includes/youtube-functions.php:100
+msgid "Settings saved."
+msgstr ""
+
+#: youtube-showcase-professional/includes/youtube-functions.php:104
+msgid "Google YouTube API Key allows you to request video stats from Google. The default key included below must be changed with your own key to minimize over-the-limit errors. Please refer to the <a href=\"%s\" target=\"_blank\">video</a> on how to get your own API Key."
+msgstr ""
+
+#: youtube-showcase-professional/includes/youtube-functions.php:118
+msgid "%s Youtube Data API v3 Key"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:25
+msgid "Video Page"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:28
+msgid "Likes:"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:29
+msgid "Favorites:"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:30
+#: youtube-showcase-professional/layouts/archive-emd-video.php:33
+msgid "Comments:"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:31
+#: youtube-showcase-professional/layouts/archive-emd-video.php:32
+msgid "Views:"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:34
+msgid "Subscribers:"
+msgstr ""
+
+#: youtube-showcase-professional/layouts/archive-emd-video.php:35
+msgid "Videos:"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:68
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:226
+msgid "Video Settings"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:230
+msgid "Glossary"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:231
+msgid "YouTube"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:235
+msgid "Add-Ons"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:239
+msgid "Designs"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:243
+msgid "Support"
+msgstr ""
+
+#: youtube-showcase-professional/youtube-showcase-professional.php:260
+msgid "Licenses"
+msgstr ""

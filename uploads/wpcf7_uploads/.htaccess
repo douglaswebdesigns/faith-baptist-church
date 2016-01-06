@@ -1,0 +1,4 @@
+Order Allow,Deny
+<FilesMatch "^[0-9A-Za-z]+\.(jpeg|gif|png|doc|xml|pdf)$">
+Allow from all
+</FilesMatch>
