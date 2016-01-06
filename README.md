@@ -4,7 +4,7 @@ Faith Baptist Church WordPress Website Repository
 ## Documentation
 This is the repository for the website located at fbcchelsea.org
 
-## Requested by:
+## Commissioned by:
 Pastor M. Adam Summers
 
 ## Developer 
