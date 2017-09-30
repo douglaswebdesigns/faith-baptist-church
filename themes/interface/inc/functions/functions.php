@@ -27,14 +27,6 @@ wp_enqueue_style( 'faith-baptist-google-fonts', 'http://fonts.googleapis.com/css
 // FontAwesome
 wp_enqueue_style('faith_baptist_fontawesome', 'http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.css');
 
-/* WordPress Login Screen Styles - fallback if AG Admin Plugin is deactivated*/
-function custom_login_styles() 
-{
-    wp_enqueue_style( 'faith-baptist-church-custom-login-style', get_template_directory_uri().'/css/custom-login.css', array(), '1.0.1', false  );
-}
-add_action( 'wp_enqueue_scripts', 'custom_login_styles' ); 
-
-
 /* Interface Theme Load Styles */
 add_action( 'wp_enqueue_scripts', 'interface_scripts_styles_method' );
 /**
@@ -45,13 +37,14 @@ function interface_scripts_styles_method() {
 	global $interface_theme_default;
    $options = $interface_theme_default;
 
+
    /**
 	 * Loads our main stylesheet.
 	 */
 	// Load our main stylesheet.
 	wp_enqueue_style( 'faith-baptist-church-style', get_stylesheet_uri());
-
-	
+	// Theme Customizations Stylesheets Enqueued Here
+    
 	
 	wp_style_add_data( 'interface-ie', 'conditional', 'lt IE 9' ); 
 	
@@ -364,4 +357,14 @@ function alx_embed_html( $html ) {
 add_filter( 'embed_oembed_html', 'alx_embed_html', 10, 3 );
 add_filter( 'video_embed_html', 'alx_embed_html' ); // Jetpack
 
-?>
+
+/****************************************************************************************/
+/* Custom Stylesheets */
+
+/* WordPress Login Screen Styles - fallback if AG Admin Plugin is deactivated*/
+function custom_login_styles() 
+{
+    wp_enqueue_style( 'faith-baptist-church-custom-login-style', get_template_directory_uri().'/css/custom-login.css', array(), '1.0.1', false  );
+    wp_enqueue_style( 'faith-baptist-church-editor-styles', get_template_directory_uri() . '/css/editor-styles.css', '', '1.1.0', '' );
+ }
+add_action( 'wp_enqueue_scripts', 'custom_login_styles' ); 

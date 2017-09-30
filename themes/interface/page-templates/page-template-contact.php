@@ -46,4 +46,7 @@
 	 */
 	do_action( 'interface_after_main_container' );
 ?>
+  <div id="secondary">
+    <?php get_sidebar( 'contact-page' ); ?>
+  </div>
 <?php get_footer(); ?>

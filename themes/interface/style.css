@@ -1313,7 +1313,7 @@ a.more-link:hover {
 /* Custom Post Templates */
 
 #page-container {
-	min-height: 300px;
+	min-height: 100px;
 }
 
 #page-container img {
@@ -1343,6 +1343,7 @@ a.more-link:hover {
 	font-weight: bold;
 }
 .entry-meta .cat-links a {
+	font-size:14px;
 	padding-bottom: 10px;
 	display: inline-block;
 }

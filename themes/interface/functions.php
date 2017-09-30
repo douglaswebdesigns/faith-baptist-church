@@ -183,5 +183,86 @@ add_action('login_head', 'login_css');
 do_action( 'interface_init' );
 
 
+// Add a Developer Notice Widget in WordPress Dashboard
+function wpc_dashboard_widget_function() {
+	// Entering the text between the quotes
+	echo "<ul>
+	<li>Site Launch Date: May 11, 2015</li>
+	<li>Author: Paul Douglas</li>
+	<li>Theme: Construction</li>
+	<li>Theme Author: Douglas Web Designs & Theme Horse</li>
+	<li>Company:  Douglas Web &amp; Graphic Design, Inc.</li>
+	<li>Contact Phone: <a href='tel:+1(734)352-0485'>734.352.0485</a></li>
+	<li>Contact Email: <a href='mailto:paul@douglaswebdesigns.com'>paul@douglaswebdesigns.com</a></li>
+	<li>Developer Website: <a href='http://douglaswebdesigns.com'>http://douglaswebdesigns.com</a></li>
+	</ul>";
+}
+
+// Add Developer Notice in WordPress Admin
+function wpc_add_dashboard_widgets() {
+	wp_add_dashboard_widget('wp_dashboard_widget', 'Developer Information', 'wpc_dashboard_widget_function');
+}
+add_action('wp_dashboard_setup', 'wpc_add_dashboard_widgets' );
+
+function example_add_dashboard_widgets() {
+ 	wp_add_dashboard_widget( 'wp_dashboard_widget', 'Developer Information', 'wpc_dashboard_widget_function' );
+ 	
+ 	// Globalize the metaboxes array, this holds all the widgets for wp-admin
+ 
+ 	global $wp_meta_boxes;
+ 	
+ 	// Get the regular dashboard widgets array 
+ 	// (which has our new widget already but at the end)
+ 
+ 	$normal_dashboard = $wp_meta_boxes['dashboard']['normal']['core'];
+ 	
+ 	// Backup and delete our new dashboard widget from the end of the array
+ 
+ 	$example_widget_backup = array( 'wp_dashboard_widget' => $normal_dashboard['wp_dashboard_widget'] );
+ 	unset( $normal_dashboard['wp_dashboard_widget'] );
+ 
+ 	// Merge the two arrays together so our widget is at the beginning
+ 
+ 	$sorted_dashboard = array_merge( $example_widget_backup, $normal_dashboard );
+ 
+ 	// Save the sorted array back into the original metaboxes 
+ 
+ 	$wp_meta_boxes['dashboard']['normal']['core'] = $sorted_dashboard;
+} 
+
+// Send email to publisher when article is posted
+
+// add_action('publish_post', 'send_admin_email');
+// function send_admin_email($post_id){
+//     $to = 'paul@douglaswebdesigns.com,pastorsummers@icloud.com';
+//     $subject = 'A New Post at Faith Baptist Church!';
+//     $message = "A new post was published on the Faith Baptist Church website. Here is the link! ".get_permalink($post_id);
+//     wp_mail($to, $subject, $message );
+// }
+ 
+add_filter( 'body_class', 'body_class_example' );
+ 
+function body_class_example( $classes ) {
+    if( is_single() ) {
+        foreach( get_the_category( get_the_ID() ) as $category )
+            $classes[] = 'cat-' . $category->category_nicename;
+    }
+    return $classes;
+}
+
+// Enable shortcodes in widgets
+add_filter( 'widget_text', 'shortcode_unautop' );
+add_filter( 'widget_text', 'do_shortcode' );
+
+function events_page_current_year( $query ){
+    if( $query->is_page_template('page-template-upcoming-and-recent-blog-full-content') )
+        $query->set( 'year', date('Y') );
+}
+add_action( 'pre_get_posts', 'events_page_current_year' );
+
+remove_filter('the_content', 'wpautop');
+
+if ( ! isset( $content_width ) )
+$content_width = 900;
 
 ?>

@@ -1,0 +1,96 @@
+/* CUSTOM SHORTCODE MENUS EMBEDS */
+
+/* MISSIONARIES MENU STYLES */
+ul.shortcode_menu.missionaries-menu { }
+ul.shortcode_menu.missionaries-menu li { }
+ul.shortcode_menu.missionaries-menu li:hover { }
+
+ul.shortcode_menu.missionaries-menu li a {
+    font-family: 'Lato', 'Roboto', 'sans-serf';
+    font-size: 1.75em;
+	line-height: 1.5em;
+}
+
+ul.shortcode_menu.missionaries-menu li:hover a {
+    text-shadow: none;
+}
+
+/* style sub menus */
+ul.shortcode_menu.missionaries-menu li ul.sub-menu { }
+ul.shortcode_menu.missionaries-menu li ul.sub-menu li { }
+ul.shortcode_menu.missionaries-menu li ul.sub-menu li:hover { }
+ul.shortcode_menu.missionaries-menu li ul.sub-menu li a { }
+ul.shortcode_menu.missionaries-menu li ul.sub-menu li:hover a { }
+/* style arrows */
+ul.shortcode_menu.missionaries-menu ul.wpsm-arrow-enabled:before { }
+ul.shortcode_menu.missionaries-menu ul.wpsm-arrow-enabled.wpsm-left-arrow:before { }
+ul.shortcode_menu.missionaries-menu ul.wpsm-arrow-enabled.wpsm-up-arrow:before { }
+
+/* MINISTRIES A MENU STYLES */
+ul.shortcode_menu.ministries-a-menu-menu { }
+ul.shortcode_menu.ministries-a-menu-menu li { }
+ul.shortcode_menu.ministries-a-menu-menu li:hover { }
+
+ul.shortcode_menu.ministries-a-menu-menu li a {
+    font-family: 'Lato', 'Roboto', 'sans-serf';
+    font-size: 1.75em;
+	line-height: 1.25em;
+}
+
+ul.shortcode_menu.ministries-a-menu-menu li:hover a { display: none}
+/* style sub menus */
+ul.shortcode_menu.ministries-a-menu-menu li ul.sub-menu { }
+ul.shortcode_menu.ministries-a-menu-menu li ul.sub-menu li { }
+ul.shortcode_menu.ministries-a-menu-menu li ul.sub-menu li:hover { }
+ul.shortcode_menu.ministries-a-menu-menu li ul.sub-menu li a { }
+ul.shortcode_menu.ministries-a-menu-menu li ul.sub-menu li:hover a { }
+/* style arrows */
+ul.shortcode_menu.ministries-a-menu-menu ul.wpsm-arrow-enabled:before { }
+ul.shortcode_menu.ministries-a-menu-menu ul.wpsm-arrow-enabled.wpsm-left-arrow:before { }
+ul.shortcode_menu.ministries-a-menu-menu ul.wpsm-arrow-enabled.wpsm-up-arrow:before { }
+
+/* MINISTRIES B MENU STYLES */
+ul.shortcode_menu.ministries-b-menu-menu { }
+ul.shortcode_menu.ministries-b-menu-menu li { }
+ul.shortcode_menu.ministries-b-menu-menu li:hover { }
+
+ul.shortcode_menu.ministries-b-menu-menu li a {
+    font-family: 'Lato', 'Roboto', 'sans-serf';
+    font-size: 1.75em;
+	line-height: 1.25em;
+}
+
+ul.shortcode_menu.ministries-b-menu-menu li:hover a { }
+/* style sub menus */
+ul.shortcode_menu.ministries-b-menu-menu li ul.sub-menu { }
+ul.shortcode_menu.ministries-b-menu-menu li ul.sub-menu li { }
+ul.shortcode_menu.ministries-b-menu-menu li ul.sub-menu li:hover { }
+ul.shortcode_menu.ministries-b-menu-menu li ul.sub-menu li a { }
+ul.shortcode_menu.ministries-b-menu-menu li ul.sub-menu li:hover a { }
+/* style arrows */
+ul.shortcode_menu.ministries-b-menu-menu ul.wpsm-arrow-enabled:before { }
+ul.shortcode_menu.ministries-b-menu-menu ul.wpsm-arrow-enabled.wpsm-left-arrow:before { }
+ul.shortcode_menu.ministries-b-menu-menu ul.wpsm-arrow-enabled.wpsm-up-arrow:before { }
+
+/* MINISTIRES C MENU STYLES */
+ul.shortcode_menu.ministries-c-menu { }
+ul.shortcode_menu.ministries-c-menu li { }
+ul.shortcode_menu.ministries-c-menu li:hover { }
+ul.shortcode_menu.ministries-c-menu li a { }
+ul.shortcode_menu.ministries-c-menu li:hover a { }
+/* style sub menus */
+ul.shortcode_menu.ministries-c-menu li ul.sub-menu { }
+ul.shortcode_menu.ministries-c-menu li ul.sub-menu li { }
+ul.shortcode_menu.ministries-c-menu li ul.sub-menu li:hover { }
+
+ul.shortcode_menu.ministries-c-menu li ul.sub-menu li a {
+    font-family: 'Lato', 'Roboto', 'sans-serf';
+    font-size: 1.75em;
+	line-height: 1.25em;
+}
+
+ul.shortcode_menu.ministries-c-menu li ul.sub-menu li:hover a { }
+/* style arrows */
+ul.shortcode_menu.ministries-c-menu ul.wpsm-arrow-enabled:before { }
+ul.shortcode_menu.ministries-c-menu ul.wpsm-arrow-enabled.wpsm-left-arrow:before { }
+ul.shortcode_menu.ministries-c-menu ul.wpsm-arrow-enabled.wpsm-up-arrow:before { }

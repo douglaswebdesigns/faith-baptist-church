@@ -31,14 +31,37 @@ paul@douglaswebdesigns.com. mobile ph: +1 (734) 352-0485
 	margin-top: -300px;
 }
 
+.margin-top {
+	margin-top: 80px;
+}
+
+.margin-top::after {
+	font-size: 22px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	content: "Next Event";
+}
+
+.margin-top-small {
+	margin-top: 40px;
+}
+
 /* Print-Friendly Plugin content styles **ONLY WORKS WHEN PRINT-FRIENDLY PLUGIN IS INSTALLED */
 .pf-content {
 	border-top: 4px solid #095A4C;
 	padding-top: 10px;
+	padding-right: 4%;
+	margin-bottom: 25px;
+	line-height: 1.45;
 }
 
 .pf-content a:hover {
 	text-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pf-content img {
+	height: 100%;
+	margin: 15%;
 }
 
 .normal {
@@ -89,12 +112,17 @@ h2 a {
 
 /* Tightens in the #main div to bring content closer to the top of the page */
 #main {
-	padding-top: 12px;
+	padding: 20px 0 0;
+}
+
+#main h1:nth-last-child(1) {
+	margin-top: 30px;
 }
 
 /* Container for all of the posts */
 #post-container {
 	padding: 0 5%;
+	margin-top: 17%;
 }
 
 /* Sets the Post Article Container to width of 80% centers on page */
@@ -110,30 +138,32 @@ article {
 	font-weight: 900;
 }
 
-/* Sets style for image captions */
+/* Sets style for image captions 
 .wp-caption {
 	margin-bottom: 1.5em;
 	max-width: 100%;
 }
 
 .wp-caption img[class*="wp-image-"] {
+	max-width: 100%;
 	display: block;
 	margin: 0 auto;
 }
 
 .wp-caption .wp-caption-text {
-	margin-top: 1.45em;
-	padding: .8075em 1em;
-	font-size: 12px;
-	font-size: 1.4rem;
-	text-shadow: 0 0 0;
 	font-family: 'Lato', sans-serif;
-	color: #333;
+	margin-top: -0.45em;
+	padding: 1.973em;
+	font-size: 19.73px;
+	color: #fff;
 	font-weight: 100;
-	background: #e5e5e5;
-	background: hsl(0,0%,90%);
+	background-color: rgba(9,90,76,0.45);
 }
 
+.wp-caption-text p {
+	color:#fff;
+}
+*/
 /* Sets style for the #secondary sidebar */
 #secondary {
 	margin-top: 56px;
@@ -157,28 +187,51 @@ section p {
 
 /* Sets style for the entry-content paragraphs on mouse hover */
 .entry-content p a {
-	margin: 0 16px;
+	margin: 0 14px;
+}
+
+.entry-content p a:link {
+	margin: 0;
 }
 
 .entry-content p a:hover {
 	cursor: pointer;
-	padding: 0 5px;
 	border-radius: 4px;
-	margin: 0 16px;
-	background: rgba(255,255,255,0.30);
-	-webkit-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	-moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background: none;
 }
 
 /* Sets up table styles withing .entry-content and .comment-content div */
 .entry-content td, .comment-content td, #post-container td {
 	padding: 4px;
-	color: green;
+	color: #191919;
 	font-size: 150%;
 	text-shadow: 1px 2px 12px #fff;
 }
 
+/* Displays the open door image in the background of the page */
+.open-door {
+	height: 760px;
+	margin-top: 20px;
+	background: url('/img/open-door-faith-baptist-church.png');
+	background-repeat: no-repeat;
+}
+
+.open-door img {
+	max-width: 100%;
+}
+
+.global-window {
+	height: 200px;
+	margin-top: 0;
+	background: url('/img/globe-10-20-window.png');
+	background-repeat: no-repeat;
+}
+
+/*
+.global-window img {
+	max-width: 100%;
+}
+*/
 /* Sets style for links in bold font */
 strong a {
 	color: #544838;
@@ -269,7 +322,19 @@ li {
 
 #content .entry-title {
 	padding-bottom: 5px;
-	display: none;
+}
+
+#content ul a:hover, #content ol a:hover {
+	text-shadow: none;
+}
+
+#content .post {
+	padding-bottom: 0;
+}
+
+.missionaries-menu, .ministries-a-menu, .ministries-b-menu, .ministries-c-menu, .resources-menu {
+	font-size: 1.75em;
+	line-height: 1.75em;
 }
 
 /* Sets the drop letter for the service area widget */
@@ -393,7 +458,7 @@ li {
 }
 
 /* Sets the images for our clients section */
-.widget_ourclients img {
+.widget_ourclients img, .jetpack-image-container img {
 	border-radius: 4px;
 	-ms-border-radius: 44px;
 	-webkit-border-radius: 4px;
@@ -485,6 +550,53 @@ li {
 	background-color: #095A4C;
 }
 
+/* SermonAudio.com  sermon-audio page */
+.sermon-audio-container {
+	margin-top: 265px;
+	padding: 0;
+	border: 5px solid #555555;
+}
+
+.sermons {
+	font-family: Papyrus, fantasy;
+	font-size: 22px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.sermons li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.size-sermon_small {
+	border-radius: 50% !important;
+}
+
+.sa_widget_browser_top {
+	background: #fff;
+	border-radius: 17px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#sa_widget_content {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.sa_widget_browser_filter, .sa_widget_browser_search {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.vertical-images {
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+
+.horizontal-image {
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+
 /**-**-**-**-**-**-**-**-**-**-**-**-**
     HOMEPAGE PROMOTIONAL AREA (WIDGET)
 **-**-**-**-**-**-**-**-**-**-**-**-**/
@@ -500,12 +612,26 @@ li {
 }
 
 .widget_promotional_bar .promotional-text span {
+	color: #333;
 	font-size: 22px;
 	font-style: italic;
 }
 
 .widget_promotional_bar .call-to-action {
 	color: #fff;
+	background: #BDAD86;
+	border: 1px solid #777;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.widget_promotional_bar .call-to-action:hover {
+	color: #777;
+}
+
+.widget_promotional_bar {
+	border-left: 4px solid #333;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background: transparent url("/wp-content/uploads/2015/11/grunge-backgrounf-fifty-percent.png") repeat scroll 0 0;
 }
 
 /* Sets the styles for the date function at the top right of the website header (all pages) */
@@ -547,9 +673,7 @@ li {
 /**-**-**-**-**-**-**-**-**-**-**-**-**
    PRISON MINISTRIES PAGE STYLES
 **-**-**-**-**-**-**-**-**-**-**-**-**/
-
 /* Prison Ministry Page has custom background */
-
 /* Large desktop */
 @media (min-width: 1200px) {
 	#prison-page-background-image {
@@ -628,11 +752,158 @@ li {
 }
 
 /**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+  BUSINESS 2 BUSINESS PAGE STYLES
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+.business-page {
+	margin: 0 auto;
+}
+
+.business-page p {
+	font-size: 18px;
+}
+
+.business-content {
+	position: relative;
+}
+
+.business-info {
+	float: left;
+	width: 75%;
+}
+
+.business-logo {
+	float: left;
+	width: 25%;
+}
+
+.business-meta {
+	margin: 0 auto;
+}
+
+.business-logo-image {
+	margin-top: 100px;
+}
+
+.business-description {
+	margin: 0 40px 10px 0;
+	padding: 35px 50px;
+	border: 1px solid #777;
+	border-radius: 10px;
+}
+
+.biz-desc-font {
+	margin: 5px 0;
+	font-size: 16px;
+}
+
+.biz-contact-font {
+	margin: 5px 0 5px 15px;
+	font-size: 20px;
+}
+
+.business-info-contact {
+	height: 220px;
+}
+
+.biz-desc-address {
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.map-content {
+	margin-bottom: 40px;
+}
+
+#business-page {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.business-font {
+	color: #777;
+	text-decoration: underline;
+}
+
+.business-page-font {
+	margin: 0 40px 10px 0;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	background: #095A4C;
+}
+
+p.business-page-font a {
+	margin-right: 40px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	background: #095A4C;
+}
+
+p.business-page-font a:hover {
+	text-decoration: underline;
+}
+
+.location-area {
+	position: relative;
+}
+
+#business-google-map {
+	width: 71.5%;
+	float: left;
+}
+
+#contact-address {
+	float: left;
+	padding: 30px 0 0 5%;
+	width: 22%;
+}
+
+.archive-post {
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+	.business-content {
+		width: 100%;
+	}
+	
+	.business-description {
+		width: 70%;
+	}
+	
+	.business-info {
+		float: none;
+		width: 100%;
+	}
+	
+	.business-logo {
+		float: none;
+		width: 100%;
+	}
+	
+	.business-logo-image {
+		margin: 10px auto;
+	}
+	
+	#contact-address {
+		width: 75%;
+	}
+	
+	#business-google-map {
+		float: none;
+		width: 100%;
+	}
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
   SOME OF MY FAVORITE BOOTSTRAP SELECTORS
 **-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
-
 .hide {
-    display: none;
+	display: none;
 }
 
 .padding {
@@ -640,18 +911,15 @@ li {
 }
 
 @media and (min-width: 768px) {
+	
+}
 
-  .hidden-sm, #hidden-sm,
-    display: none !important;
-  } 
-
-  .padding {
-  	padding: none;
-  }
+.padding {
+	padding: none;
+}	
 }
 
 @media screen and (min-width: 800px) {
-
 	.jumbotron {
 		background-color: rgba(234,226,201,0.45);
 		margin: 50px 40px;
@@ -663,14 +931,16 @@ li {
 	}
 }
 
+	
 }
 
 .jumbotron-skewed {
+	width: 90.5%;
 	font-weight: 700;
 	font-style: italic;
 	background-color: rgba(9,90,76,.25);
 	padding: 25px 20px 5px 25px;
-	margin-bottom: 30px;
+	margin-top: 30px;
 	line-height: 150%;
 	border-radius: 12px 1px;
 }
@@ -700,6 +970,263 @@ li {
 	-ms-transform: skewY(2.5deg);
 	-o-transform: skewY(2.5deg);
 	transform: skewY(2.5deg);
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    STAFF PAGE TEMPLATE & CPT
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Includes style for the staff pages and custom post types */
+.pastor {
+	display: inline;
+}
+
+.pastor-header {
+	display: inline-block;
+	margin-right: 6px;
+	padding-top: 10px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: .85rem;
+	font-weight: 900;
+	text-decoration: none;
+}
+
+.pastor-header a {
+	color: #fff;
+}
+
+.pastor-header a:hover {
+	text-decoration: underline;
+}
+
+.staff {
+	display: inline-block;
+	padding-top: 10px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #fff;
+	font-size: .85rem;
+}
+
+.staff a {
+	color: #fff;
+}
+
+.staff a:hover {
+	text-decoration: underline;
+}
+
+.staff-member {
+	float: left;
+	width: 60%;
+}
+
+.staff-member li {
+	line-height: 1.45;
+}
+
+.staff-sidebar {
+	float: left;
+	width: 35%;
+	margin-top: 28px;
+	margin-left: 3%;
+	padding-left: 1%;
+	border-left: 2px solid #61948B;
+}
+
+.staff-menu {
+}
+
+.profile-text {
+	font-size: 18px;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    TEAM SHOWCASE ( PREMIUM PLUGIN)
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Team Showcase video caption styles */
+.tshowcase-single-title {
+	color: #095A4C;
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+.tshowcase-box {
+	width: 90%;
+	z-index: 99999;
+}
+
+.tshowcase-single-position {
+	font-size: 22px;
+	line-height: 1;
+}
+
+.tshowcase-single-groups {
+	display: none;
+}
+
+.tshowcase-single-location {
+}
+
+.tshowcase-single-telephone {
+	font-size: 26px;
+	line-height: 1.45;
+}
+
+.tshowcase-single-email {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.tshowcase-single-freehtml {
+	margin-top: 12px;
+	padding: 15px;
+	font-size: 15px;
+	line-height: 1.25;
+	border: 1px solid #777;
+	border-radius: 4px;
+	background: rgba(207,199,171,.85);
+}
+
+.tshowcase-single-shortbio {
+	background: tan;
+}
+
+.tshowcase-single-website {
+	margin-top: 6px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.tshowcase-box-social {
+}
+
+.tshowcase-box-details {
+}
+
+.tshowcase-single-position {
+	font-size: 22px;
+	line-height: 1;
+}
+
+.ts-circle {
+	-webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-
+****  SPECIAL CARDS FOR DISPLAYING TEAM IN BLACK & WHITE -**-
+-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**- */
+.ts-white-box-style .tshowcase-single-location {
+}
+
+.ts-white-box-style .tshowcase-single-telephone {
+	font-size: 26px;
+	line-height: 1.45;
+}
+
+.ts-white-box-style .tshowcase-single-email {
+	font-size: .85rem;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.ts-white-box-style .tshowcase-single-freehtml {
+	font-size: 18px;
+	line-height: 1.25;
+}
+
+.ts-white-box-style .tshowcase-single-shortbio {
+	background: tan;
+}
+
+.ts-white-box-style .tshowcase-single-website {
+	margin-top: 6px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.ts-white-box-style .tshowcase-box-social {
+}
+
+.ts-white-box-style .tshowcase-box-details {
+}
+
+.ts-white-box-style .tshowcase-inner-box {
+	display: inline-block;
+	margin: 0 auto;
+	width: 90%;
+/*Uncomment if you want the boxes to have a fixed with. Works better when image is on the left and content on the right */
+	background: #FFFFFF;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	padding: 5px 5px 2px;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+
+.ts-white-box-style  .tshowcase-inner-box:hover {
+	-webkit-transform: none!important;
+	-moz-transform: none!important;
+	-ms-transform: none!important;
+	position: relative;
+	z-index: 9999;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+
+.ts-white-box-style .tshowcase-box-photo {
+	padding: 0;
+	margin: 0;
+}
+
+.ts-white-box-style .ts-img-left img {
+	margin-top: 0;
+	margin-left: 2px;
+	margin-bottom: 10px;
+	padding: 0 10px 0 0;
+	border-top-left-radius: 4px;
+	border-bottom-right-radius: 10%;
+	z-index: 9999;
+}
+
+.ts-white-box-style .ts-img-above img {
+	padding: 0;
+}
+
+.ts-white-box-style .tshowcase-box-photo img:hover {
+}
+
+.ts-white-box-style .tshowcase-box-info {
+	padding: 2px 2px 10px;
+}
+
+.ts-white-box-style .tshowcase-box-title {
+	margin-top: 5px;
+}
+
+.ts-white-box-style .tshowcase-box-title a {
+	margin-top: 5px !important;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:hover {
+	color: #FFF;
+	text-decoration: underline;
 }
 
 /**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
@@ -837,8 +1364,10 @@ p.training-day {
 /* Blockquotes */
 blockquote {
 	width: 75%;
-	padding: 1.5em 1em .1em;
-	margin: 5.5% 10%;
+	margin: 5%;
+	padding: 1.5%;
+	font-size: 16px;
+	line-height: 1.2;
 	font-style: italic;
 	background-color: rgba(238,238,238,0.65);
 	border-left: 6px solid #095A4C;
@@ -890,6 +1419,44 @@ sup {
 	font-size: 18px;
 }
 
+.entry-content blockquote.eye-catcher:before {
+	content: '\201C';
+	text-align: left;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 64px;
+	font-family: "Dante MT Medium";
+	font-style: normal;
+}
+
+.entry-content blockquote.eye-catcher:after {
+	content: '\201D';
+	text-align: right;
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+	font-size: 64px;
+	font-family: "Dante MT Medium";
+	font-style: normal;
+}
+
+.entry-content blockquote.eye-catcher {
+	text-align: center;
+	position: relative;
+	margin: 50px 0;
+	padding: 30px 50px 30px 30px;
+	font-size: 1.95rem;
+	border: 1px dashed #bbb;
+	background-color: #F4F4F4;
+	box-shadow: none;
+}
+
+.entry-content blockquote.eye-catcher h3 {
+	color: #777;
+	font-size: 2em;
+}
+
 .by-author, .date, .comments {
 	font-size: 150%;
 }
@@ -902,7 +1469,11 @@ sup {
 	content: " on";
 }
 
-.entry-meta .by-author, .entry-meta .date, .entry-meta .comments {
+.entry-meta .by-author {
+	margin: 0 4px;
+}
+
+.entry-meta .date, .entry-meta .comments {
 	margin-right: 4px;
 }
 
@@ -919,6 +1490,72 @@ sup {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.video-container-left {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.video-container-right {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.vjs-seeking .vjs-loading-spinner, .vjs-waiting .vjs-loading-spinner {
+	display: none !important;
+}
+
+/*Google Calendar and Website Calendar Page Styles */
+.simcal-default-calendar-grid .simcal-calendar-head .simcal-nav {
+	background: #095A4C;
+}
+
+.simcal-current-month, .simcal-current-year {
+	color: #f2f2f2;
+}
+
+.simcal-default-calendar-light .simcal-nav-button:disabled, .simcal-default-calendar-light .simcal-nav-button:disabled:hover {
+	color: #095A4C;
+	background: rgba(255,255,255,0.8);
+}
+
+.simcal-default-calendar .simcal-nav-button {
+	border-radius: 50%;
+	background: #f2f2f2;
+	height: 35px;
+	width: 35px;
+}
+
+.simcal-default-calendar .simcal-nav-button:selected {
+	color: #f2f2f2;
+	background: rgba(255,255,255,0.65);
+}
+
+.simcal-default-calendar .simcal-nav-button:hover {
+	color: #f2f2f2;
+	background: rgba(255,255,255,0.65);
+}
+
+.simcal-default-calendar .simcal-nav-button:focus {
+	color: rgba(255,255,255,0.8);
+	background: rgba(9,90,76,0.4);
+}
+
+.simcal-default-calendar-light .simcal-nav-button, .simcal-nav-button .simcal-month-nav .simcal-prev {
+	color: #095A4C;
+	background: #f2f2f2;
+}
+
+.simcal-default-calendar-light .simcal-nav-button, .simcal-nav-button .simcal-month-nav .simcal-next {
+	color: #095A4C;
+	background: #f2f2f2;
+}
+
+.simcal-default-calendar .simcal-nav-button {
+	transition: margin .25s ease-in-out;
 }
 
 /* Rules that set different size images for decorative TV frames on smaller screens */
@@ -1150,6 +1787,11 @@ span.wpcf7-list-item-label {
 	font-size: 1.2em;
 }
 
+a.readmore {
+	float: left;
+	margin-left: 12px;
+}
+
 .tparrows.preview4 .tp-arr-imgholder {
 	background-size: cover;
 	background-position: center center;
@@ -1159,9 +1801,62 @@ span.wpcf7-list-item-label {
 }
 
 img.alignleft, img.alignright, img.aligncenter {
-	margin: 30px;
-	border-radius: 10px;
+	margin: 2%;
+	border-radius: 0;
 	box-shadow: 0 16px 18px 0 rgba(0,0,0,0.22), 0 25px 30px 0 rgba(0,0,0,0.21);
+}
+
+img.alignleft, img.alignright, img.aligncenter:hover {
+	border: 1px solid #fff;
+	background: none;
+}
+
+#ptp-3480 a.ptp-button {
+	background-color: #319382;
+}
+
+/* Countdown Timer Styles */
+.element_conteiner {
+}
+
+#main_countedown_widget_2 .time_left {
+	color: #fff !important;
+	background: #BDAD86 !important;
+	border: 1px solid #777;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#main_countedown_widget_2 .time_description {
+	margin-top: 12px;
+}
+
+.content_countdown {
+	margin-top: -40px;
+}
+
+/**_**-**-**-**-**
+WPForms Styles
+**_**-**-**-**-**/
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	color: #fff;
+	background: #BDAD86;
+}
+
+.wpforms-confirmation-container-full {
+	font-family: Roboto, Lato, 'sans-serif';
+	color: #095A4C;
+	margin: 0 0 24px;
+	background: #CEC6AA;
+	border: 1px solid #9A947F;
+	padding: 15px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-center {
+	margin-top: 100px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	float: left;
 }
 
 /**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
@@ -1176,10 +1871,6 @@ img.alignleft, img.alignright, img.aligncenter {
 }
 
 @media screen and ( min-width: 1320px ) {
-	.alignleft {
-		margin-left: -160px;
-	}
-	
 	.widget_service p {
 		min-height: 195px;
 	}
@@ -1209,6 +1900,16 @@ img.alignleft, img.alignright, img.aligncenter {
 	}
 }
 
+@media screen and ( min-width: 800px ) {
+	.sermon-audio-container {
+		width: 60%;
+		margin: 265px 20% 0;
+		padding: 2.5%;
+		background: #fff;
+		border: 5px solid #555555;
+	}
+}
+
 @media screen and ( min-width: 320px ) and ( max-width: 800px ) {
 	article {
 		display: block;
@@ -1217,7 +1918,7 @@ img.alignleft, img.alignright, img.aligncenter {
 	}
 	
 	blockquote {
-		width: 80%;
+		width: 75%;
 	}
 	
 	.slideshow-slide-caption {
@@ -1251,10 +1952,77 @@ img.alignleft, img.alignright, img.aligncenter {
 	.resp-num-3 {
 		width: 100%;
 	}
+	
+	.video-container-left {
+		float: left;
+		width: 95%;
+		margin: 2.5%;
+	}
+	
+	.video-container-right {
+		float: left;
+		width: 95%;
+		margin: 2.5%;
+	}
 }
 
 @media screen and ( max-width: 640px ) {
 	.video-container {
 		max-height: 220px;
 	}
+	
+	#sa_widget_browser {
+		background-color: #fff;
+	}
+	
+	.sa_widget_browser_top {
+		background: #fff;
+		border-radius: 17px;
+		box-shadow: none;
+	}
+	
+	#sa_widget_content {
+		box-shadow: none;
+	}
+	
+	.sa_widget_browser_filter, .sa_widget_browser_search {
+		box-shadow: none;
+	}
+	
+	.church_image img {
+		border-radius: none !important;
+	}
 }
+
+/* Dual Wolves DBA Douglas Web & Graphic Designs, Inc. 
+   (734) 352-0485
+   paul@douglaswebdesigns.com
+   https://douglaswebdesigns.com
+
+                                     ,ood8888booo,
+                                  ,od8'         `8bo,
+                               ,odP                 Ybo,
+                             ,d8'                     `8b,
+                            ,oP                         Yo,
+                           ,8                             8,
+                           8Y                             Y8
+                           8l                   aba       l8
+                           Ya               ,ad'  8       aY
+                            Y8,           aY8,   ,P     ,8Y
+                             Y8o          aP     8     o8Y
+                              `Y8      ,aP'      8    8Y'
+                      ,arooowwwwwooo88P'        d'  aY'
+                   ,adP                        ,aa8P
+                  aP  a8a,                     d'
+                 $       Y          ,    ,    ,8
+                $  $,    P     a8888b   daaa  8
+               $  $ Y  aP 8  ad      8  8   8 `a
+               $ $  8 8  d  P        d ,P   `8 8
+               `$'  d 8  `8 ba       Y 8     `8 ba
+                    8  ba  8a$       8  ba    `8a$
+                     Yaa$             Yaa$
+
+Power; cunning; strength; courage; family 
+Wolf is a symbol for companion and guardian
+They are a symbol of loyal, faithful, honesty
+*/

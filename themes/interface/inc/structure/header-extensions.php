@@ -304,9 +304,21 @@ if (1 != $options['disable_top']) {
 }
 /****************************************************************************************/ ?>
 <?php if(1 != $options['disable_top'] && ($set_flags == 1 || (!empty($options['social_phone'] ) || !empty($options['social_email'] ) || !empty($options['social_location'])))){ ?>
-</div>
+   
+   <div class="pastor">
+
+     <p class="pastor-header"><a href="/faith-baptist-church-staff/m-adam-summers/">M. Adam Summers - Senior Pastor</a></p>
+          
+    </div>
+    <div class="staff">
+
+    		<a href="/staff/" style="color:#fff;">  Staff </a>
+
+    </div>
 <!-- .container -->
 </div>
+</div> 
+
 <!-- .info-bar -->
 <?php } ?>
 <?php $header_image = get_header_image();

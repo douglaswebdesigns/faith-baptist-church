@@ -1,0 +1,2014 @@
+/*
+Welcome to Faith Baptist Church Custom CSS Style Sheet!
+
+CSS (Cascading Style Sheets) is a type of code that tells the browser 
+(Chrome, Firefox, Opera, Safari, IE, etc) how to render -or display-
+a web page. 
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the website
+theme CSS rules. Just write here what you want to change, you don't need
+to copy all your theme's stylesheet content.
+
+There are two parts to a CSS rule; Selector and Declaration. There are
+many tpes of selectors: Universal, Element, ID, Class, Descendant, Child
+Combinator, General Sibling, Adjacent Sibling, Attribute, Pseudo-class,
+and Psuedo-element. You can read all about CSS Selectors here: 
+https://douglaswebdesigns.com/css-selectors/
+
+Reminder: Be sure to periodically backup any CSS modifications you make
+to this style sheet.
+
+If you have any questions contact your website developer, Paul Douglas,
+paul@douglaswebdesigns.com. mobile ph: +1 (734) 352-0485
+*/
+/*========================================*/
+/*             GLOBAL STYLES              */
+/*========================================*/
+/* Any Normally Unstyled Link Inside Pages */
+/* Hovering Over a Cited Anchor Link */
+.special {
+	margin-top: -300px;
+}
+
+.margin-top {
+	margin-top: 80px;
+}
+
+.margin-top::after {
+	font-size: 22px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	content: "Next Event";
+}
+
+.margin-top-small {
+	margin-top: 40px;
+}
+
+.pf-content {
+	margin-bottom: 25px;
+	font-size: 1.25rem;
+}
+
+.pf-content a:hover {
+	text-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.normal {
+	font-style: normal;
+}
+
+.smaller p {
+	font-size: 50%;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.oblique {
+	font-style: oblique;
+}
+
+/* Background for entire site, the wrapper */
+.wrapper {
+}
+
+/* Site container sets the actual width of the pages */
+.container {
+	max-width: 1200px;
+}
+
+.nav-menu ul li ul li ul li a:hover {
+	color: #808080;
+}
+
+#access ul li ul li ul {
+	background-color: #fff;
+	border-top: 4px solid #10A087;
+	border-left: 2px solid #10A087;
+	-webkit-box-shadow: 6px 6px 4px #4d4d4d;
+	-moz-box-shadow: 6px 6px 4px #4d4d4d;
+	box-shadow: 6px 6px 4px #4d4d4d;
+}
+
+h2 a {
+	line-height: 1;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Tightens in the #main div to bring content closer to the top of the page */
+#main {
+	padding: 20px 0 0;
+}
+
+#main h1:nth-last-child(1) {
+	margin-top: 30px;
+}
+
+/* Container for all of the posts */
+#post-container {
+	padding: 0 5%;
+	margin-top: 17%;
+}
+
+/* Sets the Post Article Container to width of 80% centers on page */
+article {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/* Sets style for unordered lists */
+.special ul li ul {
+	font-size: 1em;
+	font-weight: 900;
+}
+
+/* Sets style for image captions 
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.wp-caption .wp-caption-text {
+	font-family: 'Lato', sans-serif;
+	margin-top: -0.45em;
+	padding: 1.973em;
+	font-size: 19.73px;
+	color: #fff;
+	font-weight: 100;
+	background-color: rgba(9,90,76,0.45);
+}
+
+.wp-caption-text p {
+	color:#fff;
+}
+*/
+/* Sets style for the #secondary sidebar */
+#secondary {
+	margin-top: 56px;
+}
+
+/* Sets the GLOBAL style for the font color for body inputs and text areas */
+body, input, textarea {
+	color: #333;
+}
+
+/* Sets the GLOBAL paragraph style */
+p {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 150%;
+}
+
+/* Sets style for the section paragraphs */
+section p {
+	font-size: 2em;
+}
+
+/* Sets style for the entry-content paragraphs on mouse hover */
+.entry-content p a {
+	margin: 0 14px;
+}
+
+.entry-content p a:link {
+	margin: 0;
+}
+
+.entry-content p a:hover {
+	cursor: pointer;
+	border-radius: 4px;
+	background: none;
+}
+
+/* Sets up table styles withing .entry-content and .comment-content div */
+.entry-content td, .comment-content td, #post-container td {
+	padding: 4px;
+	color: #191919;
+	font-size: 150%;
+	text-shadow: 1px 2px 12px #fff;
+}
+
+/* Displays the open door image in the background of the page */
+.open-door {
+	height: 760px;
+	margin-top: 20px;
+	background: url('/img/open-door-faith-baptist-church.png');
+	background-repeat: no-repeat;
+}
+
+.open-door img {
+	max-width: 100%;
+}
+
+.global-window {
+	height: 200px;
+	margin-top: 0;
+	background: url('/img/globe-10-20-window.png');
+	background-repeat: no-repeat;
+}
+
+.global-window img {
+	max-width: 100%;
+}
+
+/* Sets style for links in bold font */
+strong a {
+	color: #544838;
+}
+
+/* Sets a special horizontal rule class for separation of paragraphs */
+hr.church-rule {
+	text-align: center;
+	width: 75%;
+	height: 2px;
+	margin-left: 12.5%;
+	border-top: 2px offset #095A4C;
+	outline: 2px solid silver;
+}
+
+/* Sets style for the breadcrumbs at the top of the content  */
+p#breadcrumbs {
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+#breadcrumbs a:link {
+	text-decoration: underline;
+}
+
+#breadcrumbs a:visited {
+	color: #555;
+}
+
+#breadcrumbs a:hover {
+	color: #095a4c;
+}
+
+#breadcrumbs a:active {
+	color: #fff;
+}
+
+.breadcrumb_last {
+	text-decoration: underline;
+}
+
+/* Sets style for the class module  */
+.module {
+	background: #ccc;
+	padding: 20px;
+	margin: 20px;
+}
+
+/* Sets style for the class wrap */
+.wrap {
+	display: flex;
+}
+
+/* Sets the parent list item styles */
+li {
+	font-size: 1.45em;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+/* Sets the access id anchorlist item styles */
+#access li a {
+	font-size: 1.15rem;
+	font-weight: 700;
+}
+
+/* Sets the text color for the navigation current page hovers states */
+#access a:hover, #access ul li.current-menu-item a, #access ul li.current_page_ancestor a, #access ul li.current-menu-ancestor a, #access ul li.current_page_item a, #access ul li:hover > a {
+	color: #fff;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**
+  SERVICE ITEMS ON THE HOMEPAGE 
+**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Change request from Pastor Summers - Fixes font sizes and decoration for the service area widget */
+.service-item-fix a {
+	text-decoration: none !important;
+}
+
+#content .service-item .service-title {
+	font-size: .9em;
+	text-decoration: none;
+}
+
+#content .service-item a {
+	text-decoration: none;
+}
+
+#content .entry-title {
+	padding-bottom: 5px;
+}
+
+#content ul a:hover, #content ol a:hover {
+	text-shadow: none;
+}
+
+#content .post {
+	padding-bottom: 0;
+}
+
+.missionaries-menu, .ministries-a-menu, .ministries-b-menu, .ministries-c-menu, .resources-menu {
+	font-size: 1.75em;
+	line-height: 1.75em;
+}
+
+/* Sets the drop letter for the service area widget */
+.widget_service p:first-child:first-letter {
+	float: left;
+	color: #095A4C;
+	font-size: 2.3em;
+	line-height: 30px;
+	padding-top: 4px;
+	padding-right: 5px;
+	padding-left: 3px;
+	font-family: Georgia;
+}
+
+/* Sets the service widget paragraph styles */
+.widget_service p {
+	color: #fff;
+	text-align: left;
+	font-size: .66em;
+	font-weight: 300;
+	background-color: #608975;
+	padding: 10px;
+	border-radius: 4px;
+	line-height: 115%;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+/* Sets the service widget styles */
+.widget_service {
+	border-radius: 4px;
+	margin-top: 30px;
+}
+
+.widget_service .more-link {
+	color: #7A5230;
+	cursor: pointer;
+}
+
+/* Sets the service item images */
+.service-item .service-icon, .service-item .service-icon img {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 6px;
+	border-radius: 0;
+	-webkit-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**
+        WIDGETIZED AREAS
+**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Sets a negative margin for the first image eidget on the page */
+.widget_ourclients {
+	margin-top: -20px;
+}
+
+/* Sets the image style of the text widget */
+.textwidget img {
+	margin-top: 25px;
+	border-radius: 4px;
+}
+
+/* Sets the paragraph font size of the text widget */
+.textwidget p {
+	font-size: 1.55em;
+}
+
+/* Sets the our client widget area style */
+.widget_ourclients {
+	background-color: #cec6aa;
+}
+
+/* Remove the forward slashes and asterisks here to make background green 
+.widget_ourclients {
+    background-color: rgba(9,90,76,0.55);
+}
+*/
+/* Sets the width of images in galleries using WordPress Gallery */
+.gallery-item {
+	float: left;
+	width: 22.2% !important;
+	margin-top: 25px;
+	margin: 15px;
+}
+
+/* Sets width of gallery item 5 images wide to 17.2% -MUST UISING % COLUMN GALLERY */
+.gallery-items-5 {
+}
+
+/* Sets a black and white hover effect for gallery images */
+/* Homepage widget "Faith Baptist Church: Featured Image" images styles */
+.gallery-item img {
+	-moz-transition: all .75s;
+	-webkit-transition: all .75s;
+	transition: all .75s;
+}
+
+.gallery-item img:hover {
+	opacity: 1;
+	border: 0 solid #e5e5e5;
+}
+
+.gallery-item img:hover {
+	-webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.gallery-item img:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+	-webkit-filter: grayscale(1);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+}
+
+/* Sets the images for our clients section */
+.widget_ourclients img, .jetpack-image-container img {
+	border-radius: 4px;
+	-ms-border-radius: 44px;
+	-webkit-border-radius: 4px;
+	margin-top: 20px;
+	-webkit-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Aligns gallery captions text to center */
+.gallery-caption, .wp-caption-text {
+	text-align: center;
+}
+
+/* Sets the text color to white for gallery captions */
+.gallery-caption {
+	font-size: 1.2em;
+	color: #fff;
+}
+
+/* Homepage widget "Faith Baptist Church: Featured Image" images styles */
+.widget_ourclients img {
+	-moz-transition: all .75s;
+	-webkit-transition: all .75s;
+	transition: all .75s;
+}
+
+.widget_ourclients img:hover {
+	opacity: 1;
+	border: 0 solid #e5e5e5;
+}
+
+.widget_ourclients img:hover {
+	-webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.widget_ourclients img:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+	-webkit-filter: grayscale(1);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	filter: grayscale(100%);
+	filter: url(desaturate.svg#greyscale);
+}
+
+/* Sets the background-color for the class page-title-wrap */
+.page-title-wrap {
+	background-color: #095A4C;
+}
+
+/* Sets the margin on all posts */
+.entry-content {
+	margin-top: 12px;
+}
+
+/* Sets the font color for meta box links and text */
+.entry-meta, .entry-meta a {
+	color: #095a4c;
+}
+
+/* Sets the font hover color for meta box links and text */
+.entry-meta:hover, .entry-meta a:hover {
+	color: #fff;
+}
+
+.entry-meta .cat-links a:before {
+	font-weight: normal;
+	font-style: italic;
+	text-transform: capitalize;
+	content: "Category - ";
+}
+
+/* Sets the font size for related posts */
+.jp-relatedposts-headline em {
+	font-size: 1.4rem;
+}
+
+/* Sets the font size for related posts links */
+.jp-relatedposts-post-a a {
+	font-size: 2em;
+}
+
+/* Home page call to action styles */
+.slogan-wrap {
+	background-color: #095A4C;
+}
+
+/* SermonAudio.com  sermon-audio page */
+.sermon-audio-container {
+	margin-top: 265px;
+	padding: 0;
+	border: 5px solid #555555;
+}
+
+.sermons {
+	font-family: Papyrus, fantasy;
+	font-size: 22px;
+	line-height: 1.5;
+	text-decoration: none;
+}
+
+.sermons li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.size-sermon_small {
+	border-radius: 50% !important;
+}
+
+.sa_widget_browser_top {
+	background: #fff;
+	border-radius: 17px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#sa_widget_content {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.sa_widget_browser_filter, .sa_widget_browser_search {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.vertical-images {
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+
+.horizontal-image {
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**
+    HOMEPAGE PROMOTIONAL AREA (WIDGET)
+**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Home page promo or notifications styles */
+.widget_promotional_bar {
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.widget_promotional_bar .promotional-text {
+	font-size: 38px;
+	line-height: 40px;
+}
+
+.widget_promotional_bar .promotional-text span {
+	color: #333;
+	font-size: 22px;
+	font-style: italic;
+}
+
+.widget_promotional_bar .call-to-action {
+	color: #fff;
+	background: #BDAD86;
+	border: 1px solid #777;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.widget_promotional_bar .call-to-action:hover {
+	color: #777;
+}
+
+.widget_promotional_bar {
+	border-left: 4px solid #333;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background: transparent url("/wp-content/uploads/2015/11/grunge-backgrounf-fifty-percent.png") repeat scroll 0 0;
+}
+
+/* Sets the styles for the date function at the top right of the website header (all pages) */
+#date {
+	float: right;
+	padding: 12px 8px 0;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+/* Sets the styles for the videos on homepage to border-box */
+.resp-video-left {
+	box-sizing: border-box;
+	margin-top: 1%;
+}
+
+/* Sets the styles for the videos on the homepage */
+.resp-video-wrapper {
+	border: 6px inset #095a4c;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* Sets the height for the videos on the homepage */
+.size-16-9 {
+	padding-bottom: 70%;
+}
+
+/* Slideshow font size */
+.slideshow-slide-caption {
+	font-size: 2em;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**
+   PRISON MINISTRIES PAGE STYLES
+**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Prison Ministry Page has custom background */
+/* Large desktop */
+@media (min-width: 1200px) {
+	#prison-page-background-image {
+		background: url('http://fbcchelsea.org/wp-content/uploads/2015/10/scroll-for-prison-page.png') no-repeat center center fixed;
+		background-size: 1200px 2722px;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top center;
+	}
+}
+
+/*
+.prison-page h1 {
+	font-size: 56px;
+	line-height: 52px;
+	color: #fff;
+	text-shadow: 1px 3px 1px #707070, -1px 3px 2px #787878;
+}
+
+.prison-page h2 {
+	background-color: rgba(255,255,255,.14);
+	padding: 5px;
+	font-size: 46px;
+	font-weight: 900;
+	border-radius: 5px;
+}
+
+.prison-page p {
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 1px 3px 1px #707070, -1px 3px 2px #787878;
+}
+*/
+.padding {
+	padding: 0 110px;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    SENIOR SUNDAY SCHOOL
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+#scrolling-down-popup-plugin {
+	border-radius: 6px;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    MATERIAL DESIGN SHADOWS
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+.z-depth-1, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.z-depth-2 {
+	-webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.z-depth-3 {
+	-webkit-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	-moz-box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 12px 15px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.z-depth-4, .modal {
+	-webkit-box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+	-moz-box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+	box-shadow: 0 16px 28px 0 rgba(0,0,0,0.22), 0 25px 55px 0 rgba(0,0,0,0.21);
+}
+
+.z-depth-5 {
+	-webkit-box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+	box-shadow: 0 27px 24px 0 rgba(0,0,0,0.2), 0 40px 77px 0 rgba(0,0,0,0.22);
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+  BUSINESS 2 BUSINESS PAGE STYLES
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+.business-page {
+	margin: 0 auto;
+}
+
+.business-page p {
+	font-size: 18px;
+}
+
+.business-content {
+	position: relative;
+}
+
+.business-info {
+	float: left;
+	width: 75%;
+}
+
+.business-logo {
+	float: left;
+	width: 25%;
+}
+
+.business-meta {
+	margin: 0 auto;
+}
+
+.business-logo-image {
+	margin-top: 100px;
+}
+
+.business-description {
+	margin: 0 40px 10px 0;
+	padding: 35px 50px;
+	border: 1px solid #777;
+	border-radius: 10px;
+}
+
+.biz-desc-font {
+	margin: 5px 0;
+	font-size: 16px;
+}
+
+.biz-contact-font {
+	margin: 5px 0 5px 15px;
+	font-size: 20px;
+}
+
+.business-info-contact {
+	height: 220px;
+}
+
+.biz-desc-address {
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.map-content {
+	margin-bottom: 40px;
+}
+
+#business-page {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.business-font {
+	color: #777;
+	text-decoration: underline;
+}
+
+.business-page-font {
+	margin: 0 40px 10px 0;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	background: #095A4C;
+}
+
+p.business-page-font a {
+	margin-right: 40px;
+	color: #fff;
+	font-size: 32px;
+	font-weight: normal;
+	font-style: italic;
+	background: #095A4C;
+}
+
+p.business-page-font a:hover {
+	text-decoration: underline;
+}
+
+.location-area {
+	position: relative;
+}
+
+#business-google-map {
+	width: 71.5%;
+	float: left;
+}
+
+#contact-address {
+	float: left;
+	padding: 30px 0 0 5%;
+	width: 22%;
+}
+
+.archive-post {
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: 800px) {
+	.business-content {
+		width: 100%;
+	}
+	
+	.business-description {
+		width: 70%;
+	}
+	
+	.business-info {
+		float: none;
+		width: 100%;
+	}
+	
+	.business-logo {
+		float: none;
+		width: 100%;
+	}
+	
+	.business-logo-image {
+		margin: 10px auto;
+	}
+	
+	#contact-address {
+		width: 75%;
+	}
+	
+	#business-google-map {
+		float: none;
+		width: 100%;
+	}
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+  SOME OF MY FAVORITE BOOTSTRAP SELECTORS
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+.hide {
+	display: none;
+}
+
+.padding {
+	padding: 0 110px;
+}
+
+@media and (min-width: 768px) {
+	
+}
+
+.padding {
+	padding: none;
+}	
+}
+
+@media screen and (min-width: 800px) {
+	.jumbotron {
+		background-color: rgba(234,226,201,0.45);
+		margin: 50px 40px;
+		padding: 25px;
+		font-size: 14px;
+		line-height: 20px;
+		border: 2px dashed #5E5432;
+		border-radius: 5%;
+	}
+}
+
+	
+}
+
+.jumbotron-skewed {
+	width: 90.5%;
+	font-weight: 700;
+	font-style: italic;
+	background-color: rgba(9,90,76,.25);
+	padding: 25px 20px 5px 25px;
+	margin-top: 30px;
+	line-height: 150%;
+	border-radius: 12px 1px;
+}
+
+/* This isn't actually Bootstrap but it is kinda cool */
+.skewed {
+	-moz-transform: skewX(-2.5deg) skewY(-2.5deg);
+	-webkit-transform: skewX(-2.5deg) skewY(-2.5deg);
+	-o-transform: skewX(-2.5deg) skewY(-2.5deg);
+	-ms-transform: skewX(-2.5deg) skewY(-2.5deg);
+	transform: skewX(-2.5deg) skewY(-2.5deg);
+}
+
+/* Skew the container one way */
+.skew-neg {
+	-webkit-transform: skewY(-2.5deg);
+	-moz-transform: skewY(-2.5deg);
+	-ms-transform: skewY(-2.5deg);
+	-o-transform: skewY(-2.5deg);
+	transform: skewY(-2.5deg);
+}
+
+/* And the child another way */
+.skew-pos {
+	-webkit-transform: skewY(2.5deg);
+	-moz-transform: skewY(2.5deg);
+	-ms-transform: skewY(2.5deg);
+	-o-transform: skewY(2.5deg);
+	transform: skewY(2.5deg);
+}
+
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    STAFF PAGE TEMPLATE & CPT
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Includes style for the staff pages and custom post types */
+
+.pastor {
+	display: inline;
+}
+
+.pastor-header {
+	display: inline-block;
+	margin-right: 6px;
+	padding-top: 10px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
+	color: #fff;
+    font-size: .85rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.pastor-header a {
+	color:#fff;
+}
+
+.pastor-header a:hover {
+	text-decoration: underline;
+}
+
+.staff {
+	display: inline-block;
+	padding-top: 10px;
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif
+	color: #fff;
+    font-size: .85rem;
+}
+
+.staff a {
+	color:#fff;
+}
+
+.staff a:hover {
+	text-decoration: underline;
+}
+
+.staff-member {
+	float: left;
+	width: 60%;
+}
+
+.staff-member li {
+	line-height: 1.45;
+}
+
+.staff-sidebar {
+	float: left;
+	width: 35%;
+	margin-top: 28px;
+	margin-left: 3%
+	padding-left: 1%;
+	border-left: 2px solid #61948B;
+}
+
+.staff-menu {
+
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    TEAM SHOWCASE ( PREMIUM PLUGIN)
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Team Showcase video caption styles */
+
+.tshowcase-single-title {
+	color: #095A4C;
+	font-size: 32px;
+	line-height: 1.2;
+}
+
+.tshowcase-box {
+	width: 90%;
+	z-index: 99999;
+}
+
+.tshowcase-single-position {
+	font-size: 22px;
+	line-height: 1;
+}
+
+.tshowcase-single-groups {
+	display: none;
+}
+
+.tshowcase-single-location {
+}
+
+.tshowcase-single-telephone {
+	font-size: 26px;
+	line-height: 1.45;
+}
+
+.tshowcase-single-email {
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.tshowcase-single-freehtml {
+	margin-top: 12px;
+	padding: 15px;
+	font-size: 15px;
+	line-height: 1.25;
+	border: 1px solid #777;
+	border-radius: 4px;
+	background: rgba(207,199,171,.85);
+}
+
+.tshowcase-single-shortbio {
+	background: tan;
+}
+
+.tshowcase-single-website {
+	margin-top: 6px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.tshowcase-box-social {
+}
+
+.tshowcase-box-details {
+}
+
+.tshowcase-single-position {
+	font-size: 22px;
+	line-height: 1;
+}
+
+.ts-circle {
+	-webkit-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	-moz-box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-
+****  SPECIAL CARDS FOR DISPLAYING TEAM IN BLACK & WHITE -**-
+-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**- */
+.ts-white-box-style .tshowcase-single-location {
+}
+
+.ts-white-box-style .tshowcase-single-telephone {
+	font-size: 26px;
+	line-height: 1.45;
+}
+
+.ts-white-box-style .tshowcase-single-email {
+	font-size: .85rem;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.ts-white-box-style .tshowcase-single-freehtml {
+	font-size: 18px;
+	line-height: 1.25;
+}
+
+.ts-white-box-style .tshowcase-single-shortbio {
+	background: tan;
+}
+
+.ts-white-box-style .tshowcase-single-website {
+	margin-top: 6px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.ts-white-box-style .tshowcase-box-social {
+}
+
+.ts-white-box-style .tshowcase-box-details {
+}
+
+.ts-white-box-style .tshowcase-inner-box {
+	display: inline-block;
+	margin: 0 auto;
+	width: 90%;
+/*Uncomment if you want the boxes to have a fixed with. Works better when image is on the left and content on the right */
+	background: #FFFFFF;
+	border: 1px solid #CCC;
+	-webkit-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	-moz-box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.2);
+	padding: 5px 5px 2px;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+
+.ts-white-box-style  .tshowcase-inner-box:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	position: relative;
+	z-index: 9999;
+	transition: .6s;
+	-webkit-transition: .6s;
+	-moz-transition: .6s;
+	-o-transition: .6s;
+	-ms-transition: .6s;
+}
+
+.ts-white-box-style .tshowcase-box-photo {
+	padding: 0;
+	margin: 0;
+}
+
+.ts-white-box-style .ts-img-left img {
+	margin-bottom: 10px;
+	padding: 0 10px 0 0;
+	z-index: 9999;
+}
+
+.ts-white-box-style .ts-img-above img {
+	padding: 0;
+}
+
+.ts-white-box-style .tshowcase-box-photo img:hover {
+}
+
+.ts-white-box-style .tshowcase-box-info {
+	padding: 2px 2px 10px;
+}
+
+.ts-white-box-style .tshowcase-box-title {
+	margin-top: 5px;
+}
+
+.ts-white-box-style .tshowcase-box-title a {
+	margin-top: 5px !important;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    YOUTUBE SHOWCASE ( PREMIUM PLUGIN)
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* YouTube Showcase video caption styles */
+.emd-container .panel-footer {
+	font-size: 1em !important;
+}
+
+/* YouTube Showcase video thumbnail image styles */
+.emd-container .emd-thumb {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/* YouTube Showcase video thumbnail image styles */
+.emd-container .panel-body {
+	background-color: transparent !important;
+	border: 1px solid #10a087;
+	padding-top: 0;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+/* YouTube Showcase specific video headings inside of the panel */
+div.emd-container .panel-danger>.panel-heading {
+	margin: 0 auto;
+	margin-bottom: 6px;
+	padding: 6px;
+	color: #fff;
+	background-color: #095a4c;
+	border-color: #216a5d;
+}
+
+/* YouTube Showcase general video headings inside of the panel */
+div.emd-container .panel-danger {
+	border: none;
+}
+
+/* YouTube Showcase standard video headings inside of the panel */
+div.emd-container div.standard .panel-body {
+	margin-bottom: 6px;
+}
+
+/* YouTube Showcase background of the panel */
+div.emd-container .panel {
+	margin-bottom: 6px;
+	background: transparent;
+}
+
+/* YouTube Showcase NO STYLES SET */
+.emd-container {
+}
+
+/* Makes sure that videos embeds are responsive */
+.emd_video {
+	width: 100%;
+}
+
+/* Sets a border for the bottom of the slider on homepage */
+.tp-parallax-container {
+	border-bottom: 4px solid #095A4C;
+}
+
+/* Increases font size for item with the class large */
+.large {
+	font-size: 3.2em;
+	margin-top: 20px;
+}
+
+/* Sets the font styles for the info bar on the homepage (WIDGET) which can be used anywhere on the site */
+.info-bar .info ul li, .info-bar .info ul li a {
+	color: #fff;
+	font-size: 1.15em;
+	font-weight: 200;
+	text-decoration: none;
+}
+
+.info-bar .info ul li:before {
+	font-size: 1.5em;
+	font-weight: 200;
+}
+
+/* Sets the margin and font weight of the top bar or anything with the class .address */
+.address {
+	margin-top: 3px;
+	font-weight: 300;
+}
+
+/* Sets the font size and a little margin for anything with the class .confit-address */
+.confit-address {
+	margin-top: 5px;
+	font-size: 1.6em;
+}
+
+/* Sets the font size and a little margin for anything with the class .confit-aphone */
+.confit-phone {
+	margin-top: 15px;
+	font-size: 2em;
+}
+
+/* Sets the social profile list item styles */
+.social-profiles ul li a {
+	width: 32px;
+	height: 32px;
+	font-size: 32px;
+	line-height: 34px;
+}
+
+/* Sets the social profile list item styles on mouse hover */
+.social-profiles ul li a:hover {
+	font-size: 125%;
+	opacity: 1;
+	-moz-opacity: 1;
+	filter: alpha(opacity=1);
+}
+
+/* Sets the styles for ID Selector colophon and the list item styles */
+#colophon .info-bar .info ul li {
+	font-size: 1.35em;
+}
+
+p.training-day {
+	margin: 22px 0;
+	font-size: 3em;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+/* Blockquotes */
+blockquote {
+	width: 75%;
+	margin: 5%;
+	padding: 1.5%;
+	font-size: 16px;
+	line-height: 1.2;
+	font-style: italic;
+	background-color: rgba(238,238,238,0.65);
+	border-left: 6px solid #095A4C;
+	border-radius: 4px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+blockquote p {
+}
+
+blockquote em {
+	font-style: normal;
+}
+
+blockquote cite {
+	display: block;
+	margin-top: 1em;
+	font-size: 8px;
+	font-size: .8em;
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.5em;
+	text-align: right;
+	padding-right: 1%;
+	border-right: 4px inset #095a4c;
+	-webkit-border-radius: 15px 0;
+	-moz-border-radius: 15px 0;
+	-ms-border-radius: 15px 0;
+	border-radius: 15px 0;
+}
+
+blockquote.alignleft {
+	width: 50%;
+	float: left;
+	padding: 1em 0 0;
+	margin-right: 2em;
+}
+
+blockquote.alignright {
+	width: 50%;
+	float: right;
+	padding: 1em 0 0;
+	margin-left: 2em;
+}
+
+sup {
+	bottom: 15px;
+	font-size: 18px;
+}
+
+.entry-content blockquote.eye-catcher:before {
+	content: '\201C';
+	text-align: left;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-size: 64px;
+	font-family: "Dante MT Medium";
+	font-style: normal;
+}
+
+.entry-content blockquote.eye-catcher:after {
+	content: '\201D';
+	text-align: right;
+	position: absolute;
+	bottom: -20px;
+	right: 10px;
+	font-size: 64px;
+	font-family: "Dante MT Medium";
+	font-style: normal;
+}
+
+.entry-content blockquote.eye-catcher {
+	text-align: center;
+	position: relative;
+	margin: 50px 0;
+	padding: 30px 50px 0;
+	border: 1px dashed #bbb;
+	background-color: #F4F4F4;
+	box-shadow: none;
+}
+
+.entry-content blockquote.eye-catcher h3 {
+	color: #777;
+	font-size: 2em;
+}
+
+.by-author, .date, .comments {
+	font-size: 150%;
+}
+
+.by-author:before {
+	content: "A Post By: ";
+}
+
+.by-author:after {
+	content: " on";
+}
+
+.entry-meta .by-author {
+	margin: 0 4px;
+}
+
+.entry-meta .date, .entry-meta .comments {
+	margin-right: 4px;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed, .video-container video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video-container-left {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.video-container-right {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+}
+
+.vjs-seeking .vjs-loading-spinner, .vjs-waiting .vjs-loading-spinner {
+	display: none !important;
+}
+
+/*Google Calendar and Website Calendar Page Styles */
+.simcal-default-calendar-grid .simcal-calendar-head .simcal-nav {
+	background: #095A4C;
+}
+
+.simcal-current-month, .simcal-current-year {
+	color: #f2f2f2;
+}
+
+.simcal-default-calendar-light .simcal-nav-button:disabled, .simcal-default-calendar-light .simcal-nav-button:disabled:hover {
+	color: #095A4C;
+	background: rgba(255,255,255,0.8);
+}
+
+.simcal-default-calendar .simcal-nav-button {
+	border-radius: 50%;
+	background: #f2f2f2;
+	height: 35px;
+	width: 35px;
+}
+
+.simcal-default-calendar .simcal-nav-button:selected {
+	color: #f2f2f2;
+	background: rgba(255,255,255,0.65);
+}
+
+.simcal-default-calendar .simcal-nav-button:hover {
+	color: #f2f2f2;
+	background: rgba(255,255,255,0.65);
+}
+
+.simcal-default-calendar .simcal-nav-button:focus {
+	color: rgba(255,255,255,0.8);
+	background: rgba(9,90,76,0.4);
+}
+
+.simcal-default-calendar-light .simcal-nav-button, .simcal-nav-button .simcal-month-nav .simcal-prev {
+	color: #095A4C;
+	background: #f2f2f2;
+}
+
+.simcal-default-calendar-light .simcal-nav-button, .simcal-nav-button .simcal-month-nav .simcal-next {
+	color: #095A4C;
+	background: #f2f2f2;
+}
+
+.simcal-default-calendar .simcal-nav-button {
+	transition: margin .25s ease-in-out;
+}
+
+/* Rules that set different size images for decorative TV frames on smaller screens */
+@media screen and (min-width: 1220px) {
+	.streaming-container {
+		max-width: 100%;
+	}
+	
+	.video-container-overlay {
+		position: ;
+		height: 700px;
+		background-color: #CEC6AA;
+		background-image: url('http://fbcchelsea.org/wp-content/uploads/2015/11/video-overlay.png');
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		z-index: 400;
+	}
+	
+	.dacast-video {
+		width: 95%;
+		margin-top: 30px;
+		margin-left: 30px;
+		z-index: 300;
+	}
+	
+	.dacast-content {
+		width: 95%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.streaming-container {
+		max-width: 100%;
+	}
+	
+	.video-container-overlay {
+		position: relative;
+		height: 620px;
+		background-color: #CEC6AA;
+		background-image: url('http://fbcchelsea.org/wp-content/uploads/2015/11/video-overlay-580x620-sm.png');
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		z-index: 400;
+	}
+	
+	.dacast-video {
+		width: 94%;
+		margin-top: 18px;
+		margin-left: 15px;
+		z-index: 300;
+	}
+	
+	.dacast-content {
+		width: 94%;
+	}
+}
+
+@media screen and (max-width: 766px) {
+	.streaming-container {
+		max-width: 100%;
+	}
+	
+	.video-container-overlay {
+		position: relative;
+		width: 520px;
+		height: 640px;
+		background-color: #CEC6AA;
+		background-image: url('http://fbcchelsea.org/wp-content/uploads/2015/11/video-overlay-phone-portrait.png');
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		z-index: 400;
+	}
+	
+	.dacast-video {
+		width: 82%;
+		margin-top: 18px;
+		margin-left: 10px;
+		z-index: 300;
+	}
+	
+	.dacast-content {
+		width: 82%;
+	}
+}
+
+@media screen and (max-width: 681px) {
+	.streaming-container {
+		max-width: 100%;
+	}
+	
+	.video-container-overlay {
+		position: relative;
+		width: 320px;
+		height: 630px;
+		background-color: #CEC6AA;
+		background-image: url('http://fbcchelsea.org/wp-content/uploads/2015/11/video-overlay-320x620-phone.png');
+		background-repeat: no-repeat;
+		margin: 0 auto;
+		z-index: 400;
+	}
+	
+	.dacast-video {
+		width: 84.5%;
+		margin-top: 18px;
+		margin-left: 7px;
+		z-index: 300;
+	}
+	
+	.dacast-content {
+		width: 84.5%;
+	}
+}
+
+/* Blockquotes responsive */
+/* Optional rules that set blockquotes to full width on smaller screens */
+@media screen and (max-width: 780px) {
+	blockquote.alignleft, blockquote.alignright {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width:600px) {
+	blockquote.alignleft,blockquote.alignright {
+		width: 100%;
+		padding: 1em 1.5em 0;
+	}
+}
+
+blockquote p {
+	font-size: 1.65em;
+	color: #095a4c;
+	text-shadow: none;
+	border-radius: 3px;
+	-ms-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+pre {
+	border-radius: 4px;
+	-ms-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+/* Sets custom style for contact form 7 */
+.form-background {
+	background-color: rgba(9,90,76,.55);
+	padding: 20px 30px;
+}
+
+.contact-form label span {
+	color: #fff;
+}
+
+.missions-form {
+	font-size: 20px;
+}
+
+.missions-form-sm {
+	font-size: 14px;
+	font-weight: 900;
+}
+
+.missions-form-sm-uppercase {
+	color: #E1F3FC;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.missions-form-lrg {
+	font-size: 22px;
+}
+
+span.wpcf7-form-control-wrap {
+	font-size: 26px;
+}
+
+span.wpcf7-form-control-wrap .approval-date {
+	margin-top: -12px;
+}
+
+span.wpcf7-form-control-wrap .form-acceptance {
+	font-size: 14px;
+}
+
+span.wpcf7-list-item-label {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-table td {
+	color: #eee;
+	text-shadow: none;
+}
+
+.image-table p {
+	background: #ddd;
+	padding: 4px;
+}
+
+.column-one-third {
+	width: 33%;
+}
+
+.column-two-thirds {
+	width: 66.7%;
+}
+
+/* Custom Slide Out Menu */
+#click-menu, #responsive_menu_pro_button {
+	border: 1px solid #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#click-menu.admin-bar-showing {
+	margin-top: 92px;
+}
+
+#responsive-menu .responsive-menu li a, #responsive_menu_pro .responsive_menu_pro_menu li li li li a {
+	font-size: 1em;
+}
+
+.responsive_menu_pro_menu li {
+	font-size: 1.2em;
+}
+
+a.readmore {
+	float: left;
+	margin-left: 12px;
+}
+
+.tparrows.preview4 .tp-arr-imgholder {
+	background-size: cover;
+	background-position: center center;
+	width: 55px;
+	height: 72px;
+	background-repeat: no-repeat;
+}
+
+img.alignleft, img.alignright, img.aligncenter {
+	margin-left: 2%;
+	border-radius: 10px;
+	box-shadow: 0 16px 18px 0 rgba(0,0,0,0.22), 0 25px 30px 0 rgba(0,0,0,0.21);
+}
+
+img.alignleft, img.alignright, img.aligncenter:hover {
+	border: 1px solid #fff;
+	background: none;
+}
+
+#ptp-3480 a.ptp-button {
+	background-color: #319382;
+}
+
+/* Countdown Timer Styles */
+.element_conteiner {
+}
+
+#main_countedown_widget_2 .time_left {
+	color: #fff !important;
+	background: #BDAD86 !important;
+	border: 1px solid #777;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#main_countedown_widget_2 .time_description {
+	margin-top: 12px;
+}
+
+.content_countdown {
+	margin-top: -40px;
+}
+
+/**_**-**-**-**-**
+WPForms Styles
+**_**-**-**-**-**/
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	color: #fff;
+	background: #BDAD86;
+}
+
+.wpforms-confirmation-container-full {
+	font-family: Roboto, Lato, 'sans-serif';
+	color: #095A4C;
+	margin: 0 0 24px;
+	background: #CEC6AA;
+	border: 1px solid #9A947F;
+	padding: 15px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-pagebreak-center {
+	margin-top: 100px;
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	float: left;
+}
+
+/**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**
+    NOW WE SET CUSTOM RESPONSIVE STYLE FOR SQUIRLY THINGS HAPPENING ON TABLETS AND MOBILE DEVICE
+**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**-**/
+/* Style Media Queries for Different Sized Devices */
+/* Alignment responsive */
+@media screen and (min-width: 1820px) {
+	.alignright {
+		margin-right: -160px;
+	}
+}
+
+@media screen and ( min-width: 1320px ) {
+	.widget_service p {
+		min-height: 195px;
+	}
+	
+	/* Sets the style for the click to go to top of page link styles */
+	.back-to-top {
+		bottom: 6px;
+		right: 12px;
+	}
+}
+
+@media screen and ( min-width: 1122px ) and ( max-width: 1319px ) {
+	.widget_service p {
+		min-height: 195px;
+	}
+}
+
+@media screen and ( min-width: 1079px ) and ( max-width: 1121px ) {
+	.widget_service p {
+		min-height: 220px;
+	}
+}
+
+@media screen and ( min-width: 801px ) and ( max-width: 1078px ) {
+	.widget_service p {
+		min-height: 150px;
+	}
+}
+
+@media screen and ( min-width: 800px ) {
+	.sermon-audio-container {
+		width: 60%;
+		margin: 265px 20% 0;
+		padding: 2.5%;
+		background: #fff;
+		border: 5px solid #555555;
+	}
+}
+
+@media screen and ( min-width: 320px ) and ( max-width: 800px ) {
+	article {
+		display: block;
+		width: 99%;
+		margin: 0 auto;
+	}
+	
+	blockquote {
+		width: 75%;
+	}
+	
+	.slideshow-slide-caption {
+		font-size: .95em;
+	}
+	
+	/* Sets the style for the click to go to top of page link styles */
+	.back-to-top {
+		bottom: 6px;
+		right: 12px;
+	}
+	
+	#date {
+		float: none;
+		margin-bottom: 2px;
+		padding: none;
+		font-size: : 2em;
+		font-weight: 900;
+		text-align: center;
+		color: #095f50;
+	}
+	
+	.widget_service p {
+		min-height: 55px;
+	}
+	
+	.textwidget img {
+		margin-left: 5%;
+	}
+	
+	.resp-num-3 {
+		width: 100%;
+	}
+	
+	.video-container-left {
+		float: left;
+		width: 95%;
+		margin: 2.5%;
+	}
+	
+	.video-container-right {
+		float: left;
+		width: 95%;
+		margin: 2.5%;
+	}
+}
+
+@media screen and ( max-width: 640px ) {
+	.video-container {
+		max-height: 220px;
+	}
+	
+	#sa_widget_browser {
+		background-color: #fff;
+	}
+	
+	.sa_widget_browser_top {
+		background: #fff;
+		border-radius: 17px;
+		box-shadow: none;
+	}
+	
+	#sa_widget_content {
+		box-shadow: none;
+	}
+	
+	.sa_widget_browser_filter, .sa_widget_browser_search {
+		box-shadow: none;
+	}
+	
+	.church_image img {
+		border-radius: none !important;
+	}
+}
+
+/* Dual Wolves DBA Douglas Web & Graphic Designs, Inc. 
+   (734) 352-0485
+   paul@douglaswebdesigns.com
+   https://douglaswebdesigns.com
+
+                                     ,ood8888booo,
+                                  ,od8'         `8bo,
+                               ,odP                 Ybo,
+                             ,d8'                     `8b,
+                            ,oP                         Yo,
+                           ,8                             8,
+                           8Y                             Y8
+                           8l                   aba       l8
+                           Ya               ,ad'  8       aY
+                            Y8,           aY8,   ,P     ,8Y
+                             Y8o          aP     8     o8Y
+                              `Y8      ,aP'      8    8Y'
+                      ,arooowwwwwooo88P'        d'  aY'
+                   ,adP                        ,aa8P
+                  aP  a8a,                     d'
+                 $       Y          ,    ,    ,8
+                $  $,    P     a8888b   daaa  8
+               $  $ Y  aP 8  ad      8  8   8 `a
+               $ $  8 8  d  P        d ,P   `8 8
+               `$'  d 8  `8 ba       Y 8     `8 ba
+                    8  ba  8a$       8  ba    `8a$
+                     Yaa$             Yaa$
+
+Power; cunning; strength; courage; family 
+Wolf is a symbol for companion and guardian
+They are a symbol of loyal, faithful, honesty
+*/

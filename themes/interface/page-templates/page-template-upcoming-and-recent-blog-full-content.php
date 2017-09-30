@@ -35,11 +35,12 @@
 				<p class="firstcharacter">
 					<?php
 					// The Query
-						query_posts('cat=75&showposts=6&orderby=date&order=DESC'); 
-
-
-			  		// The Loop 
-						while (have_posts()) : the_post(); ?>
+								
+					 $current_year = date('Y', current_time('timestamp'));
+					 $current_month = date('m', current_time('timestamp'));
+					 query_posts("cat=75&posts_per_page=6&order=ASC&year=$current_year&monthnum=$current_month");
+					 while(have_posts()) : the_post();
+					?>
 
 
 					<?php 
@@ -57,8 +58,9 @@
 
 					
 				<!-- Admin Edit Post -->
-				
-				<h6><strong><?php edit_post_link(); ?></strong></h6>
+				<div class="margin-top">
+					<h6><strong><?php edit_post_link(); ?></strong></h6>
+				</div>
 
 				<?php
 				// End the Loop
